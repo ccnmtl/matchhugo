@@ -1,0 +1,34 @@
+<!-- sidebar menu start-->
+<div class="col-lg-2 sidenav clearfix">
+<aside>
+    <div class="module-name hidden-lg" id="module-name-toggle">
+        <div id="toggle-sidenav">
+            <a href="#">
+                <div class="toggle-button">
+                    <div id="sidenav-icon">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div><!-- sidenav-icon -->
+                </div><!-- toggle-button -->
+                <h1>{{ .Params.module}}</h1>
+            </a>
+        </div><!-- toggle-sidenav -->
+    </div><!-- module-name -->
+    
+    {{ $currentNode := . }}
+    {{ $thisSection := replace .Section "-" "_" }}
+    
+    {{ range (index .Site.Menus $thisSection) }}
+        {{ if .HasChildren }}
+        <ul class="nav" id="section-list">
+        {{ range .Children }}
+        <li{{if $currentNode.IsMenuCurrent $thisSection . }} class="active"{{end}}><a href="{{.URL}}">{{ .Name }}&nbsp;</a></li>
+        {{ end }}
+        </ul>
+        {{end}}
+    {{end}}
+</aside>
+</div><!-- sidenav -->

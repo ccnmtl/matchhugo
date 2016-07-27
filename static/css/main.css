@@ -1,0 +1,278 @@
+body {
+    background-color: #e1f0ef;
+}
+
+.footer-moreinfo {
+    background-color: #dedede;
+}
+
+a
+{
+    color: #339999;
+    text-decoration: none;
+}
+
+a:hover
+{
+	color: #35a0a4;
+	text-decoration: none;
+}
+
+a:active
+{
+	color: #35a0a4;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: #f46b08;
+	text-decoration: none;
+}
+
+/* Case quizzes */
+
+.cases {
+  min-height: 20px;
+  padding: 3px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.casetitle
+{
+    background-color: #e6f2d8;
+    margin: 0;
+    padding: 5px 10px;
+    border: 0;
+    font-weight: bold;
+  -webkit-border-top-left-radius: 4px;
+     -moz-border-top-left-radius: 4px;
+          border-top-left-radius: 4px;
+  -webkit-border-top-right-radius: 4px;
+     -moz-border-top-right-radius: 4px;
+          border-top-right-radius: 4px;
+}
+
+.casecontent
+{
+    margin: 10px;
+    padding: 0;
+    border: 0;
+}
+
+.casequestion
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+.cases li
+{
+    margin: 3px 0;
+}
+
+.cases textarea {
+    width: 90% !important;
+}
+
+.casesanswerdisplay {
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #999;
+    line-height: 18px;
+}
+
+.casequestionexplanationheader, .q-mod5 {
+    display: none;
+}
+
+.hide-feedback .casesanswerdisplay,
+.hide-feedback .caseanswerexplanation,
+.hide-feedback .caseanswerresult {
+    display: none;
+}
+
+.response-heading {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.submit-container {
+    text-align: center;
+}
+
+.submit-container .btn-print {
+    margin-left: 10px;
+}
+
+.submit-container .btn-print:before {
+    content: "\e045";
+    font-family: "Glyphicons Halflings";
+    margin-right: 3px;
+}
+
+/* Module 5 Pre-visit quizblock modification */
+
+.mod5-previsit .moretoggle {
+    display: none;
+}
+
+.mod5-previsit .casesanswerdisplay {
+    display: none;
+    border: none;
+    margin-top: 10px
+}
+
+.mod5-previsit .casequestionexplanationheader {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.mod5-previsit div.q-mod5 {
+    font-size: 40px;
+    float: left;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 5px;
+    display: block;
+}
+
+.mod5-previsit .question-text {
+    min-height: 35px;
+    padding: 10px 0 0 10px;
+    float: left;
+    margin-top: 10px;
+}
+
+.mod5-previsit .cases {
+    border: none;
+}
+
+.mod5-previsit .casetitle {
+    display: none;
+}
+
+.mod5-previsit textarea {
+    height: 80px;
+    width: 100% !important;
+}
+
+.mod5-previsit textarea[disabled='disabled'] {
+    margin-top: 5px;
+    border-color: #e6f2d8;
+    background-color: #e6f2d8;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    -moz-border-top-left-radius: 6px;
+    -moz-border-top-right-radius: 6px;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+}
+
+.mod5-previsit .response-heading {
+    color: #009999;
+    border-bottom: 1px solid #099;
+    margin: 0 0 10px 0 !important;
+    padding: 0 0 5px 0 !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+}
+
+.mod5-previsit .casequestionexplanationheader {
+    color: #333;
+    border-bottom: 1px solid #999;
+    margin: 0 0 10px 0 !important;
+    padding: 0 0 5px 0 !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+}
+
+/* Module 4: prioritized response quiz */
+.response-prioritized {
+    margin-bottom: 0;
+}
+
+.response-prioritized input[type=radio] {
+    margin: 4px;
+}
+
+.response-prioritized .cases {
+    border: 0px;
+    padding: 0px;
+    margin: 0;
+    -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+            border-radius: 0px;
+}
+
+.response-prioritized .casetitle,
+.response-prioritized .casesanswerdisplay {
+    display: none;
+}
+
+.response-prioritized .casecontent {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.response-prioritized .selection-block {
+    background-color: #efefef;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+            border-radius: 6px;
+}
+
+.response-prioritized .selection-block h3 {
+    margin: 0 0 10px 0 !important;
+    padding: 0 !important;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    font-weight: normal !important;
+    font-size: 16px !important;
+}
+
+.response-prioritized .highlighted {
+    background-color: #e6f2d8;
+}
+
+.response-prioritized .highlighted h3 {
+    color: #009999;
+    border-bottom: 1px solid #099;
+}
+
+.response-prioritized .casequestion-text {
+    font-size: 16px !important;
+}
+
+.response-prioritized .selection-list {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+            border-radius: 6px;
+}
+
+.response-prioritized label {
+    line-height: 24px;
+    display: block;
+    font-weight: normal;
+}
+
+.response-prioritized .choice-header {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
