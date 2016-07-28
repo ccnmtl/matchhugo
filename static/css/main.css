@@ -30,81 +30,120 @@ a:visited
 	text-decoration: none;
 }
 
-/* Case quizzes */
-
-.cases {
-  min-height: 20px;
-  padding: 3px;
-  margin-bottom: 20px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
-}
-
-.casetitle
+table
 {
-    background-color: #e6f2d8;
-    margin: 0;
-    padding: 5px 10px;
-    border: 0;
-    font-weight: bold;
-  -webkit-border-top-left-radius: 4px;
-     -moz-border-top-left-radius: 4px;
-          border-top-left-radius: 4px;
-  -webkit-border-top-right-radius: 4px;
-     -moz-border-top-right-radius: 4px;
-          border-top-right-radius: 4px;
-}
-
-.casecontent
-{
-    margin: 10px;
+    margin: 0 0 1em 0;
     padding: 0;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    font-size: 100%;
+}
+
+table.noborders,
+table.noborders td
+
+{
+    border: none;
+    padding: 10px 10px 0 10px;
+    vertical-align: top;
+}
+
+table tbody
+{
     border: 0;
 }
 
-.casequestion
+th
 {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-
-.cases li
-{
-    margin: 3px 0;
-}
-
-.cases textarea {
-    width: 90% !important;
-}
-
-.casesanswerdisplay {
-    margin: 0;
-    padding: 5px;
     border: 1px solid #999;
-    line-height: 18px;
+    border-collapse: collapse;
+    padding: 5px;
 }
 
-.casequestionexplanationheader, .q-mod5 {
-    display: none;
+td
+{
+    border: 1px solid #999;
+    border-collapse: collapse;
+    padding: 5px;
 }
 
-.hide-feedback .casesanswerdisplay,
-.hide-feedback .caseanswerexplanation,
-.hide-feedback .caseanswerresult {
-    display: none;
+.pullquote
+{
+    display: block;
+    margin: 10px 0;
+    padding: 38px 45px 10px;
+    background-color: #fff;
+    background: url("../img/quotes.png") no-repeat scroll left top transparent;
 }
 
-.response-heading {
-    font-weight: bold;
-    margin-bottom: 10px;
+.pullquote .source, .source
+{
+    font-size: 90%;
+    font-style: italic;
 }
 
+/* Did You Know */
+.did_you_know
+{
+    clear: both;
+    display: block;
+    float: right;
+    width: 300px;
+    margin: 20px 15px 10px 30px;
+    padding: 0;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    background: url("../img/bg_pullquote.png") 0 0 no-repeat;
+}
 
+.did_you_know .pullquote
+{
+    display: block;
+    margin: 0 !important;
+    padding: 0 10px 0 20px !important;
+    background-color: #fff;
+    background: url(none) !important;
+    font-style: italic !important;
+    font-size: 16px !important;
+    line-height: 150% !important;
+    color: #999;
+}
+
+.did_you_know .citation
+{
+    font-size: 12px !important;
+    line-height: 130% !important;
+}
+
+.did_you_know h3
+{
+    font-family: 'times new roman', times, serif;
+    margin: 0 !important;
+    padding: 20px 10px 10px 10px !important;
+    border: 0;
+    font-style: italic;
+    font-weight: normal !important;
+    font-size: 24px !important;
+    color: #9999cc !important;
+}
+
+/* Wheel Interactive */
+img[name="pediatricnutrition"] {
+    width: 667px;
+    height: "384"
+}
+
+/* Module 4 tables */
+.gray_header table th {
+    border: 2px solid #999;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: left;
+    background-color: #EEE;
+}
+
+/* Quiz Submit Container */
 .submit-container {
     text-align: center;
 }
@@ -119,160 +158,182 @@ a:visited
     margin-right: 3px;
 }
 
-/* Module 5 Pre-visit quizblock modification */
+/* Quizzes */
 
-.mod5-previsit .moretoggle {
-    display: none;
+.casecontent ol {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
 }
 
-.mod5-previsit .casesanswerdisplay {
-    display: none;
-    border: none;
-    margin-top: 10px
+.casecontent ol li {
+    line-height: 20px;
+    margin: 10px 0;
+    padding: 5px;
 }
 
-.mod5-previsit .casequestionexplanationheader {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 10px;
+.cases {
+  min-height: 20px;
+  padding: 3px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
 }
 
-.mod5-previsit div.q-mod5 {
-    font-size: 40px;
-    float: left;
-    font-weight: bold;
-    margin-top: 10px;
-    margin-left: 5px;
-    display: block;
+.cases input[type="radio"],
+.cases input[type="checkbox"] {
+    margin: 3px 5px 3px 0px !important;
 }
 
-.mod5-previsit .question-text {
-    min-height: 35px;
-    padding: 10px 0 0 10px;
-    float: left;
-    margin-top: 10px;
-}
-
-.mod5-previsit .cases {
-    border: none;
-}
-
-.mod5-previsit .casetitle {
-    display: none;
-}
-
-.mod5-previsit textarea {
-    height: 80px;
-    width: 100% !important;
-}
-
-.mod5-previsit textarea[disabled='disabled'] {
-    margin-top: 5px;
-    border-color: #e6f2d8;
-    background-color: #e6f2d8;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    -moz-border-top-left-radius: 6px;
-    -moz-border-top-right-radius: 6px;
-    -webkit-border-top-left-radius: 6px;
-    -webkit-border-top-right-radius: 6px;
-}
-
-.mod5-previsit .response-heading {
-    color: #009999;
-    border-bottom: 1px solid #099;
-    margin: 0 0 10px 0 !important;
-    padding: 0 0 5px 0 !important;
-    font-weight: normal !important;
-    font-size: 16px !important;
-}
-
-.mod5-previsit .casequestionexplanationheader {
-    color: #333;
-    border-bottom: 1px solid #999;
-    margin: 0 0 10px 0 !important;
-    padding: 0 0 5px 0 !important;
-    font-weight: normal !important;
-    font-size: 16px !important;
-}
-
-/* Module 4: prioritized response quiz */
-.response-prioritized {
+.cases .alert {
+    padding: 5px;
     margin-bottom: 0;
 }
 
-.response-prioritized input[type=radio] {
-    margin: 4px;
-}
-
-.response-prioritized .cases {
-    border: 0px;
-    padding: 0px;
+.casetitle {
+    background-color: #e6f2d8;
     margin: 0;
-    -webkit-border-radius: 0px;
-        -moz-border-radius: 0px;
-            border-radius: 0px;
+    padding: 5px 10px;
+    border: 0;
+    font-weight: bold;
+    -webkit-border-top-left-radius: 4px;
+        -moz-border-top-left-radius: 4px;
+            border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+        -moz-border-top-right-radius: 4px;
+            border-top-right-radius: 4px;
 }
 
-.response-prioritized .casetitle,
-.response-prioritized .casesanswerdisplay {
-    display: none;
+.casecontent {
+    margin: 10px;
+    padding: 0;
+    border: 0;
 }
 
-.response-prioritized .casecontent {
+.casequestion {
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-.response-prioritized .selection-block {
-    background-color: #efefef;
-    margin-bottom: 20px;
-    margin-left: 20px;
+.cases li {
+    margin: 3px 0;
+}
+
+.cases textarea {
+    width: 90% !important;
+}
+
+.casesanswerdisplay {
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #999;
+    line-height: 18px;
+}
+
+
+/* Myth & Fact */
+.gameshow .cases {
+    padding: 20px;
+    background-color: #1DA5AB;
+    border: 0;
+}
+
+.gameshow .quiz-feedback, 
+.gameshow .casetitle {
+    display: none;
+}
+
+.gameshow .casecontent {
+    margin: 0;
+    padding: 10px 20px 5px 130px;
+        background: url('../img/qmark.png') center left no-repeat;
+        background-position: top left;
+        min-height: 185px;
+        border: none;
+
+}
+
+.mf-question {
+    font-size: 140%;
+    font-style: italic;
+    color: #fff;
+        margin: 0;
+}
+
+.gameshow .casesanswerdisplay {
+    border: 0;
+}
+
+/* QUIZ CASES */
+
+.quiz_cases .cases {
+    border: none;
+}
+
+.quiz_cases .casetitle {
+    display: none;
+}
+
+.quiz_cases .question_text {
+    font: normal 18px/140% "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #399;
+}
+
+.quiz_cases .casecontent ol {
+    margin: 20px 0 20px 40px;
+    padding: 0 0 0 20px;
+    list-style-type: upper-alpha;
+}
+
+.quiz_cases label {
+    font: normal 14px/140% "Helvetica Neue", Helvetica, Arial, sans-serif;
+    cursor: pointer;
+}
+
+.quiz_cases .alert {
+    margin: 0;
+}
+
+.quiz_cases .casesanswerdisplay {
+    margin: 0 40px;
+    border-radius: 5px;
     padding: 10px;
-    -webkit-border-radius: 6px;
-        -moz-border-radius: 6px;
-            border-radius: 6px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
 }
 
-.response-prioritized .selection-block h3 {
-    margin: 0 0 10px 0 !important;
-    padding: 0 !important;
-    color: #333;
-    border-bottom: 1px solid #ccc;
-    font-weight: normal !important;
-    font-size: 16px !important;
+/* Module4 answer-feedback-quiz */
+
+.answer-feedback-quiz input[type="checkbox"]:disabled,
+.answer-feedback-quiz input[type="radio"]:disabled {
+    display: inline;
 }
 
-.response-prioritized .highlighted {
-    background-color: #e6f2d8;
-}
-
-.response-prioritized .highlighted h3 {
-    color: #009999;
-    border-bottom: 1px solid #099;
-}
-
-.response-prioritized .casequestion-text {
-    font-size: 16px !important;
-}
-
-.response-prioritized .selection-list {
-    width: 400px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    -webkit-border-radius: 6px;
-        -moz-border-radius: 6px;
-            border-radius: 6px;
-}
-
-.response-prioritized label {
-    line-height: 24px;
+.answer-feedback-quiz div.answer-explanation {
     display: block;
-    font-weight: normal;
 }
 
-.response-prioritized .choice-header {
-    font-size: 18px;
-    margin-bottom: 10px;
+.answer-feedback-quiz .casesanswerdisplay {
+    margin: 0 40px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+}
+
+/* Module4 complete-feedback-quiz */
+div.complete-feedback-quiz div.quiz-feedback {
+    display: block;
+}
+
+div.complete-feedback-quiz div.casetitle {
+    display: none;
+}
+
+div.complete-feedback-quiz div.quiz-feedback span:before {
+    content: "Thank you for your response. Continue to learn what happens next."
 }
