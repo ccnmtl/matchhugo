@@ -33,32 +33,24 @@ function isFormComplete(form) {
     return valid;
 }
 
-function submitStatePrevisit(elt) {
-    var yourResponse =
-        '<div class="response-heading">Your response:</div>';
-    jQuery(elt)
-        .find('textarea').attr('disabled', 'disabled')
-        .before(yourResponse);
-
-    jQuery(elt).find('.casesanswerdisplay').show();
+function markCorrect(form) {
+    jQuery(form).find('input[type="radio"]:checked').each(function() {
+        if (jQuery(this).data('value') === 1) {
+            jQuery(this).parent().addClass('alert alert-success');
+        } else {
+            jQuery(this).parent().addClass('alert alert-danger');
+        }
+    });
 }
 
-function submitStatePrioritized(elt) {
-    var yourConcern =
-        '<div class="your-choice choice-header">Your concern is...</div>';
-    var otherConcerns =
-        '<div class="choice-header">' +
-        'Let’s look at the other choices...</div>';
+function submitStateGameshow(form) {
+    jQuery(form).find('.casesanswerdisplay').removeClass('hidden');
+    markCorrect(form);
+}
 
-    var lst = jQuery(elt).find('.selection-list');
-    jQuery(lst).prepend(otherConcerns).prepend(yourConcern)
-         .removeClass('selection-list').addClass('explanation-list');
-    jQuery(elt).find('input[type=radio]').parent().hide();
-    jQuery(elt).find('.selection-block').removeClass('hidden');
-
-    var sel = jQuery(elt).find('input[type=radio]:checked').parent().next();
-    jQuery(sel).addClass('highlighted');
-    jQuery(elt).find('.your-choice').after(sel);
+function submitState(form) {
+    jQuery(form).find('.casesanswerdisplay').removeClass('hidden');
+    markCorrect(form);
 }
 
 jQuery(document).ready(function() {
@@ -92,14 +84,10 @@ jQuery(document).ready(function() {
         jQuery('.btn-print').removeClass('hidden');
 
         // based on quiz type, show/hide various bits
-        var elt = jQuery(form).find('.mod5-previsit');
+        var sel = '.quiz_cases,.answer-feedback-quiz,.gameshow';
+        var elt = jQuery(form).find(sel);
         if (elt.length > 0) {
-            submitStatePrevisit(elt);
-        }
-
-        elt = jQuery(form).find('.response-prioritized');
-        if (elt.length > 0) {
-            submitStatePrioritized(elt);
+            submitState(form);
         }
     });
 
