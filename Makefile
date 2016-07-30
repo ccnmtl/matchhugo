@@ -4,7 +4,7 @@ STAGING_BUCKET=matchhugo.stage.ccnmtl.columbia.edu
 PROD_BUCKET=match.ctl.columbia.edu
 INTERMEDIATE_STEPS ?= echo nothing
 
-JS_FILES=static/js/src
+JS_FILES=themes/ctl-book/static/js/
 
 all: jshint jscs webpack
 
