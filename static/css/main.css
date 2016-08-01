@@ -82,6 +82,21 @@ td
     font-style: italic;
 }
 
+.print_chart {
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    height: 25px;
+}
+
+.print_chart a {
+    display: block;
+    float: right;
+    padding-right: 30px;
+    background: url('../img/icon_printer.png') right center no-repeat;
+    height: 25px;
+    line-height: 25px;
+}
+
 /* Did You Know */
 .did_you_know
 {

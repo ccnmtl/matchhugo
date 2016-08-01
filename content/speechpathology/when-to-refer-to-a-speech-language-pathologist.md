@@ -11,4 +11,4 @@ next: "../swallow-assessments/"
 previous: "../speech-and-the-pediatric-population/"
 ---
 <div class="pageblock print_chart"><a href="https://www1.columbia.edu/sec/ccnmtl/remote/static/match/pdf/slpchart01.pdf" target="_blank">Print version</a>
-</div>
+</div>{{< interactives url="speechassessment" width="900px" height="800px" >}}

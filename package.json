@@ -17,6 +17,10 @@
   },
   "dependencies": {
     "dentalvisitactivity-pack": "^0.1.1",
+    "speechassessment-pack": "^0.1.1",
+    "speechdiagnoses-pack": "^0.1.1",
+    "swallowassessment-pack": "^0.1.1",
+    "anticipatoryguidance-pack": "^0.1.1",
     "webpack": "^1.13.1"
   },
   "devDependencies": {
