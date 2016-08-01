@@ -11,4 +11,4 @@ next: "../speech-and-the-pediatric-population/"
 previous: "../speech-language-pathologists/"
 ---
 <div class="pageblock print_chart"><a href="https://www1.columbia.edu/sec/ccnmtl/remote/static/match/pdf/slpchart03.pdf" target="_blank">Print version</a>
-</div>{{< interactives url="diagnoses" width="900px" height="800px" >}}
+</div>{{< interactives url="speechdiagnoses" width="900px" height="800px" >}}
