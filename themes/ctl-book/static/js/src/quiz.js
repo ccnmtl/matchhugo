@@ -33,38 +33,44 @@ function isFormComplete(form) {
     return valid;
 }
 
-function markCorrect(form) {
-    jQuery(form).find('input[type="radio"]:checked').each(function() {
-        if (jQuery(this).data('value') === 1) {
-            jQuery(this).parent().addClass('alert alert-success');
-        } else {
-            jQuery(this).parent().addClass('alert alert-danger');
-        }
-    });
+function submitStatePrevisit(elt) {
+    var yourResponse =
+        '<div class="response-heading">Your response:</div>';
+    jQuery(elt)
+        .find('textarea').attr('disabled', 'disabled')
+        .before(yourResponse);
+
+    jQuery(elt).find('.casesanswerdisplay').show();
 }
 
-function submitStateGameshow(form) {
-    jQuery(form).find('.casesanswerdisplay').removeClass('hidden');
-    markCorrect(form);
-}
+function submitStatePrioritized(elt) {
+    var yourConcern =
+        '<div class="your-choice choice-header">Your concern is...</div>';
+    var otherConcerns =
+        '<div class="choice-header">' +
+        'Let’s look at the other choices...</div>';
 
-function submitState(form) {
-    jQuery(form).find('.casesanswerdisplay').removeClass('hidden');
-    markCorrect(form);
+    var lst = jQuery(elt).find('.selection-list');
+    jQuery(lst).prepend(otherConcerns).prepend(yourConcern)
+         .removeClass('selection-list').addClass('explanation-list');
+    jQuery(elt).find('input[type=radio]').parent().hide();
+    jQuery(elt).find('.selection-block').removeClass('hidden');
+
+    var sel = jQuery(elt).find('input[type=radio]:checked').parent().next();
+    jQuery(sel).addClass('highlighted');
+    jQuery(elt).find('.your-choice').after(sel);
 }
 
 jQuery(document).ready(function() {
-    var exitWarning = false;
-    var printed = false;
 
     // add a print button to every page with a submit button
     jQuery('.btn-submit-section').after(
-            '<button class="btn btn-default btn-print hidden">Print</button>');
+            '<button class="btn btn-default btn-print flash ' +
+            'hidden">Print</button>');
 
     jQuery('.btn-print').click(function(evt) {
         evt.preventDefault();
         window.print();
-        printed = true;
         return false;
     });
 
@@ -84,10 +90,14 @@ jQuery(document).ready(function() {
         jQuery('.btn-print').removeClass('hidden');
 
         // based on quiz type, show/hide various bits
-        var sel = '.quiz_cases,.answer-feedback-quiz,.gameshow';
-        var elt = jQuery(form).find(sel);
+        var elt = jQuery(form).find('.mod5-previsit');
         if (elt.length > 0) {
-            submitState(form);
+            submitStatePrevisit(elt);
+        }
+
+        elt = jQuery(form).find('.response-prioritized');
+        if (elt.length > 0) {
+            submitStatePrioritized(elt);
         }
     });
 
@@ -109,15 +119,6 @@ jQuery(document).ready(function() {
 
         if (!submitted) {
             alert('Please complete all form fields before continuing.');
-            evt.preventDefault();
-            return false;
-        }
-
-        if (!printed && !exitWarning) {
-            exitWarning = true;
-            alert('We suggest you print the completed activity results ' +
-                  'before continuing. Your answers will not be saved ' +
-                  'once you leave this page.');
             evt.preventDefault();
             return false;
         }
