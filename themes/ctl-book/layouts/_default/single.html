@@ -6,7 +6,7 @@
 {{ $currentNode }}
 
 <div class="clearfix"></div>
-<nav>
+<nav class="hidden-print">
   <ul class="pager pager-nav">
     {{ if .Params.previous }}
     <li class="previous"><a href="{{.Params.previous}}"><span class="sr-only">Go to </span><span aria-hidden="true">&larr;</span> Previous<span class="sr-only"> page</span></a></li>

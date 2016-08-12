@@ -8,8 +8,8 @@
 </div>
 
 <footer role="contentinfo">
-    <div  class="container">
-        <ul class="footer-moreinfo" role="presentation">
+    <div class="container">
+        <ul class="footer-moreinfo hidden-print" role="presentation">
             <li><a href="/info/about/"><span class="sr-only">Learn more </span>About<span class="sr-only"> {{ .Site.Params.shortTitle }}</span></a></li>
             <li><a href="#">Help<span class="sr-only"> on using this website</span></a></li>
             <li><a href="#">Contact<span class="sr-only"> us</span></a></li>
@@ -21,43 +21,21 @@
         </ul>
     </div>
 </footer>
-<div id="winSize"></div>
 
 </body>
 
 <!-- Javascript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<script type="text/javascript">
-    jQuery(document).ready(function() {
-   var WindowsSize=function(){
-        var h=$(window).height(),
-            w=$(window).width();
-        $("#winSize").html("<p>Width: "+w+"<br>Height: "+h+"</p>");
-    };
-   $(document).ready(function(){WindowsSize();}); 
-   $(window).resize(function(){WindowsSize();}); 
-    });
-
-$(document).ready(function(){
-	$('#toggle-sidenav a').click(function(evt){
-		$('#sidenav-icon').toggleClass('open');
-		$( "#section-list" ).animate({height: 'toggle'},200);
-		return false;
-		evt.stopPropagation();
-	});
-	$('body').click(function(){
-	    if ($('#module-name-toggle').is(":visible")) {
-	    if ($( "#section-list" ).is(":visible")) {
-		$('#sidenav-icon').toggleClass('open');
-		$( "#section-list" ).animate({height: 'toggle'},200);
-		}
-		}
-	});
-});
-</script>
 <script src="{{ .Site.BaseURL }}js/src/main.js" type="text/javascript" language="javascript"></script>
+{{ if .IsHome }}
+{{ end }}
+{{ if .IsPage }}
+{{ if eq .Type "module-page" }}
+<script src="{{ .Site.BaseURL }}js/src/sidemenu.js" type="text/javascript" language="javascript"></script>
 <script src="{{ .Site.BaseURL }}js/src/quiz.js" type="text/javascript" language="javascript"></script>
-<script src="{{ .Site.BaseURL }}js/src/wheel.js" type="text/javascript" language="javascript"></script>
+{{ else }}
+{{ end }}
+{{ end }}
 
 </html>

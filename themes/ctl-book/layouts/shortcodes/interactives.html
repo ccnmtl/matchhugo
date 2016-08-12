@@ -1,6 +1,11 @@
-<div class="iframe-embed">
+<div class="width-warning alert alert-danger" role="presentation">
+  The interactive activity on this page is best viewed on larger screens. Please rotate your mobile device, or switch to a desktop computer.
+</div>
+
+<div class='iframe-embed {{ .Get "minsize" }} {{ .Get "name" }}'>
+<p class="sr-only" role="alert">The following is an interactive activity that may not be accessible to assistive technologies.</p>
 	<iframe src='/lib/{{ .Get "url" }}'
-		width='{{ .Get "width" }}'
-		height='{{ .Get "height" }}'
+		frameborder='0'
+		height='800'
 	></iframe>
 </div>
