@@ -6,6 +6,7 @@ menu:
   nursepractitioners:
     parent: "nursepractitioners"
     weight: 4
+    identifier: "medical-conditions-oral-health"
 depth: 3
 next: "../asthma/"
 previous: "../anticipatory-guidance/"

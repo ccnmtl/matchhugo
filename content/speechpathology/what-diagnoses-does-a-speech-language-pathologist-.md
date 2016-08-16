@@ -6,6 +6,7 @@ menu:
   speechpathology:
     parent: "speechpathology"
     weight: 3
+    identifier: "what-diagnoses-does-a-speech-language-pathologist-"
 depth: 3
 next: "../speech-and-the-pediatric-population/"
 previous: "../speech-language-pathologists/"

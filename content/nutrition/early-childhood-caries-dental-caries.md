@@ -6,6 +6,7 @@ menu:
   nutrition:
     parent: "nutrition"
     weight: 6
+    identifier: "early-childhood-caries-dental-caries"
 depth: 3
 next: "../meet-nick/"
 previous: "../nutrition-and-pediatric-population/"

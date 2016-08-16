@@ -6,6 +6,7 @@ menu:
   socialwork:
     parent: "socialwork"
     weight: 20
+    identifier: "treatment-options"
 depth: 4
 next: "../dental-care/"
 previous: "../what-would-you-do/"

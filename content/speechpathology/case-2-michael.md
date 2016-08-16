@@ -6,6 +6,7 @@ menu:
   speechpathology:
     parent: "speechpathology"
     weight: 11
+    identifier: "case-2-michael"
 depth: 3
 next: "../case2followup/"
 previous: "../case-1-learning-point/"

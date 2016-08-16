@@ -6,6 +6,7 @@ menu:
   nursepractitioners:
     parent: "nursepractitioners"
     weight: 6
+    identifier: "congenital-heart-disease"
 depth: 4
 next: "../diabetes/"
 previous: "../asthma/"

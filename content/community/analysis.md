@@ -6,6 +6,7 @@ menu:
   community:
     parent: "community"
     weight: 8
+    identifier: "analysis"
 depth: 5
 next: "../results/"
 previous: "../data-collection/"

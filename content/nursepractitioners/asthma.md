@@ -6,6 +6,7 @@ menu:
   nursepractitioners:
     parent: "nursepractitioners"
     weight: 5
+    identifier: "asthma"
 depth: 4
 next: "../congenital-heart-disease/"
 previous: "../medical-conditions-oral-health/"

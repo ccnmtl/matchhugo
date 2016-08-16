@@ -6,6 +6,7 @@ menu:
   speechpathology:
     parent: "speechpathology"
     weight: 6
+    identifier: "swallow-assessments"
 depth: 3
 next: "../referring-a-child/"
 previous: "../when-to-refer-to-a-speech-language-pathologist/"

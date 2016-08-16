@@ -6,6 +6,7 @@ menu:
   nursepractitioners:
     parent: "nursepractitioners"
     weight: 16
+    identifier: "dr-browns-next-steps"
 depth: 4
 next: "../case-2-meet-justin/"
 previous: "../what-do-you-do-next/"

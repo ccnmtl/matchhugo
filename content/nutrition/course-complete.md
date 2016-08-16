@@ -6,6 +6,7 @@ menu:
   nutrition:
     parent: "nutrition"
     weight: 10
+    identifier: "course-complete"
 depth: 3
 previous: "../activity-wrap-up-exemplar-video/"
 ---
