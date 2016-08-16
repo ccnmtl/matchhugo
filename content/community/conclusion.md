@@ -6,6 +6,7 @@ menu:
   community:
     parent: "community"
     weight: 13
+    identifier: "conclusion"
 depth: 3
 next: "../course-complete/"
 previous: "../results2/"

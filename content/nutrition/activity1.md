@@ -6,6 +6,7 @@ menu:
   nutrition:
     parent: "nutrition"
     weight: 8
+    identifier: "activity1"
 depth: 3
 next: "../activity-wrap-up-exemplar-video/"
 previous: "../meet-nick/"

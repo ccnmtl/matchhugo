@@ -6,6 +6,7 @@ menu:
   nutrition:
     parent: "nutrition"
     weight: 7
+    identifier: "meet-nick"
 depth: 3
 next: "../activity1/"
 previous: "../early-childhood-caries-dental-caries/"

@@ -6,6 +6,7 @@ menu:
   nutrition:
     parent: "nutrition"
     weight: 4
+    identifier: "nutrition-update"
 depth: 3
 next: "../nutrition-and-pediatric-population/"
 previous: "../roles-of-registered-dietitians/"

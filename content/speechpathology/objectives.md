@@ -6,6 +6,7 @@ menu:
   speechpathology:
     parent: "speechpathology"
     weight: 1
+    identifier: "objectives"
 depth: 3
 next: "../speech-language-pathologists/"
 previous: "../introduction/"

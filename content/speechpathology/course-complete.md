@@ -6,6 +6,7 @@ menu:
   speechpathology:
     parent: "speechpathology"
     weight: 14
+    identifier: "course-complete"
 depth: 3
 previous: "../conclusion/"
 ---

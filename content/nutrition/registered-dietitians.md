@@ -6,6 +6,7 @@ menu:
   nutrition:
     parent: "nutrition"
     weight: 2
+    identifier: "registered-dietitians"
 depth: 3
 next: "../roles-of-registered-dietitians/"
 previous: "../objectives/"

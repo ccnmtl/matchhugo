@@ -6,6 +6,7 @@ menu:
   nursepractitioners:
     parent: "nursepractitioners"
     weight: 8
+    identifier: "gastroesophageal-reflux-disease"
 depth: 4
 next: "../developmental-disabilities/"
 previous: "../diabetes/"

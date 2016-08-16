@@ -6,6 +6,7 @@ menu:
   socialwork:
     parent: "socialwork"
     weight: 15
+    identifier: "case-3-emma"
 depth: 3
 next: "../examining-emma/"
 previous: "../helping-sanjay/"

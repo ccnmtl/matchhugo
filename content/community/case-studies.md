@@ -6,6 +6,7 @@ menu:
   community:
     parent: "community"
     weight: 5
+    identifier: "case-studies"
 depth: 3
 next: "../case-study-1/"
 previous: "../in-the-field/"

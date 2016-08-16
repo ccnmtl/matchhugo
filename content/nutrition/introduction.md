@@ -6,6 +6,7 @@ menu:
   nutrition:
     parent: "nutrition"
     weight: 0
+    identifier: "introduction"
 depth: 3
 next: "../objectives/"
 ---

@@ -6,6 +6,7 @@ menu:
   community:
     parent: "community"
     weight: 0
+    identifier: "introduction"
 depth: 3
 next: "../what-is-a-community-dental-health-coordinator/"
 ---

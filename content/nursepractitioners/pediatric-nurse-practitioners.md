@@ -6,6 +6,7 @@ menu:
   nursepractitioners:
     parent: "nursepractitioners"
     weight: 1
+    identifier: "pediatric-nurse-practitioners"
 depth: 3
 next: "../pnp-roles/"
 previous: "../introduction/"

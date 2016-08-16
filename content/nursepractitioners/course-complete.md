@@ -6,6 +6,7 @@ menu:
   nursepractitioners:
     parent: "nursepractitioners"
     weight: 24
+    identifier: "course-complete"
 depth: 3
 previous: "../conclusion/"
 ---
