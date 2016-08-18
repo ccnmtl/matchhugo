@@ -1,0 +1,42 @@
+        </div>
+    </div>
+    {{ if .IsPage }}
+    {{ if eq .Type "module-page" }}
+         {{ partial "sidenav.html" . }}
+    {{ end }}
+    {{ end }}
+</div>
+
+<footer role="contentinfo">
+    <div class="container">
+        <ul class="footer-moreinfo hidden-print" role="presentation">
+            <li><a href="/info/about/"><span class="sr-only">Learn more </span>About<span class="sr-only"> {{ .Site.Params.shortTitle }}</span></a></li>
+            <li><a href="#">Help<span class="sr-only"> on using this website</span></a></li>
+            <li><a href="#">Contact<span class="sr-only"> us</span></a></li>
+        </ul>
+        <h1 class="sr-only" role="presentation">{{ .Site.Params.shortTitle }} is produced by:</h1>
+        <ul class="footer-logos" role="presentation">
+            <li><a href="http://dental.columbia.edu" target="_blank"><img src="{{ .Site.BaseURL }}img/logo-cdm.png" alt="Columbia University College of Dental Medicine" /></a></li>
+            <li><a href="http://ctl.columbia.edu" target="_blank"><img src="{{ .Site.BaseURL }}img/logo-ctl.png" alt="Center for Teaching and Learning at Columbia University" /></a></li>
+        </ul>
+    </div>
+</footer>
+
+</body>
+
+<!-- Javascript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="{{ .Site.BaseURL }}js/src/main.js" type="text/javascript" language="javascript"></script>
+{{ if .IsHome }}
+{{ end }}
+{{ if .IsPage }}
+{{ if eq .Type "module-page" }}
+<script src="{{ .Site.BaseURL }}js/src/sidemenu.js" type="text/javascript" language="javascript"></script>
+<script src="{{ .Site.BaseURL }}js/src/quiz.js" type="text/javascript" language="javascript"></script>
+<script src="{{ .Site.BaseURL }}js/src/wheel.js" type="text/javascript" language="javascript"></script>
+{{ else }}
+{{ end }}
+{{ end }}
+
+</html>
