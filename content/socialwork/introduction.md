@@ -14,9 +14,8 @@ next: "../social-workers/"
 <p>Social workers interfaces with children and families in settings where pediatric dentists usually don’t, including schools, hospitals, clinics, community programs (like Head Start and Early Intervention Programs), service agencies, and private practices.</p>
 <p>Social workers can help you understand and leverage community and family issues that influence pediatric oral health. The diagram below shows some of ways social workers can help: "social environment," "social capital," "culture," and "health behaviors, practices, & coping skills of families.”</p>
 </div>
-<p>
-<br/><br/>
-{{< figure src="/img/assets/fisher-owens_final.png" alt="" class="" name="" usemap="">}}</p><div class="bullethead"><strong>This module aims to:</strong></div>
+<p>{{< figure src="/img/assets/fisher-owens_final.png" alt="" class="" name="" usemap="">}}</p>
+<p><strong>This module aims to:</strong></p>
 <div class="ol-bullets">
 <ol>
 <li>Enhance your understanding of the social work profession</li>

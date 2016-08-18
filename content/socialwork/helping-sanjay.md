@@ -17,30 +17,20 @@ previous: "../sanjays-situation/"
 </div><div class="pageblock"><table>
 <tr>
 <td>
-<table class="noborders">
-<tr>
-<td>
-{{< figure src="/img/assets/sw_icon6.png" alt="" class="" name="" usemap="">}}</td>
-<td>
-<h3>Staff Capacity Building</h3>
-<div class="maintext"><p>Social workers can be hired to conduct behavioral management training for your staff to deal with difficult behavior problems, especially where behavior stems from complex family dynamics. Such training might include recognizing common problematic family dynamics, de-escalating a situation, and parent negotiation.</p></div></td>
-</tr>
-</table>
+<div class="left" style="margin: 0 15px 0 0;">
+{{< figure src="/img/assets/sw_icon6.png" alt="" class="" name="" usemap="">}}</div>
+<div class="seven-ways"><h3>Staff Capacity Building</h3>
+<div class="maintext"><p>Social workers can be hired to conduct behavioral management training for your staff to deal with difficult behavior problems, especially where behavior stems from complex family dynamics. Such training might include recognizing common problematic family dynamics, de-escalating a situation, and parent negotiation.</p></div></div>
 </td>
 </tr>
 </table>
 <table>
 <tr>
 <td>
-<table class="noborders">
-<tr>
-<td>
-{{< figure src="/img/assets/sw_icon7.png" alt="" class="" name="" usemap="">}}</td>
-<td>
-<h3>Patient Retention</h3>
-<div class="maintext"><p>Enhancing staff capacity to deal with difficult families helps ensure a positive parental experience in your office that can result in practice growth through parent-referrals and retention of your patients long-term.</p></div></td>
-</tr>
-</table>
+<div class="left" style="margin: 0 15px 0 0;">
+{{< figure src="/img/assets/sw_icon7.png" alt="" class="" name="" usemap="">}}</div>
+<div><h3>Patient Retention</h3>
+<div class="maintext"><p>Enhancing staff capacity to deal with difficult families helps ensure a positive parental experience in your office that can result in practice growth through parent-referrals and retention of your patients long-term.</p></div></div>
 </td>
 </tr>
 </table>

@@ -82,6 +82,10 @@ td
     font-style: italic;
 }
 
+.seven-ways {
+    margin-left: 140px;
+}
+
 .print_chart {
     padding-bottom: 0;
     margin-bottom: 5px;

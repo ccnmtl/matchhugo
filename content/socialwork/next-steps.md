@@ -16,15 +16,10 @@ previous: "../examining-emma/"
 </div><div class="pageblock"><table>
 <tr>
 <td>
-<table class="noborders">
-<tr>
-<td>
-{{< figure src="/img/assets/sw_icon2.png" alt="" class="" name="" usemap="">}}</td>
-<td>
-<h3>Improving Patient Outcomes</h3>
-<div class="maintext"><p>To ensure positive oral and behavioral health outcomes for Emma, she and her family may require a multidisciplinary approach that includes the dentist, physician, nutritionist and social worker or adolescent and family counselor. </p></div></td>
-</tr>
-</table>
+<div class="left" style="margin: 0 15px 0 0;">
+{{< figure src="/img/assets/sw_icon2.png" alt="" class="" name="" usemap="">}}</div>
+<div class="seven-ways"><h3>Improving Patient Outcomes</h3>
+<div class="maintext"><p>To ensure positive oral and behavioral health outcomes for Emma, she and her family may require a multidisciplinary approach that includes the dentist, physician, nutritionist and social worker or adolescent and family counselor.</p></div></div>
 </td>
 </tr>
 </table>
