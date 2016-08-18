@@ -14,35 +14,23 @@ previous: "../examining-matt/"
 <form method="post" action="."><div class="pageblock"><div class="right">{{< figure src="/img/assets/MattMom1-crop-small.jpg" alt="" class="" name="" usemap="">}}</div>
 </div><div class="pageblock"><h3>What comes next for Matt?</h3><div class="maintext"><p>Mom says she is happy to encourage Matt to brush his teeth but doubts that she can arrange her work schedule and child care to keep a follow up appointment.</p>
 <p>You know that if Matt does not return for needed care he will likely develop an acute infection.</p></div><br/><br/><br/><br/>
-</div><div class="pageblock"><table>
+</div><div class="pageblock visualclear"><table>
 <tr>
 <td>
-<table class="noborders">
-<tr>
-<td>
-{{< figure src="/img/assets/sw_icon2.png" alt="" class="" name="" usemap="">}}</td>
-<td>
-<h3>Improving Patient Outcomes</h3>
-<div class="maintext"><p>The school social worker can work with the family to develop a "family treatment plan" that sets specific goals around oral health.</p></div>
-</td>
-</tr>
-</table>
+<div class="left" style="margin: 0 15px 0 0;">
+{{< figure src="/img/assets/sw_icon2.png" alt="" class="" name="" usemap="">}}</div>
+<div class="seven-ways"><h3>Improving Patient Outcomes</h3>
+<div class="maintext"><p>The school social worker can work with the family to develop a "family treatment plan" that sets specific goals around oral health.</p></div></div>
 </td>
 </tr>
 </table>
 <table>
 <tr>
 <td>
-<table class="noborders">
-<tr>
-<td>
-{{< figure src="/img/assets/sw_icon7.png" alt="" class="" name="" usemap="">}}</td>
-<td>
-<h3>Patient Retention</h3>
-<div class="maintext"><p>The holistic team approach of social worker and dentist evidences that your practice is serious about the continued well-being of children, thereby enhancing patient loyalty and retention.</p></div>
-</td>
-</tr>
-</table>
+<div class="left" style="margin: 0 15px 0 0;">
+{{< figure src="/img/assets/sw_icon7.png" alt="" class="" name="" usemap="">}}</div>
+<div><h3>Patient Retention</h3>
+<div class="maintext"><p>The holistic team approach of social worker and dentist evidences that your practice is serious about the continued well-being of children, thereby enhancing patient loyalty and retention.</p></div></div>
 </td>
 </tr>
 </table>

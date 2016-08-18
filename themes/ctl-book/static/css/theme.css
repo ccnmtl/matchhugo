@@ -37,6 +37,10 @@ h5 {
     margin-top: 20px;
 }
 
+figure {
+    margin-bottom: 20px;
+}
+
 /* Table styles */
 table
 {
@@ -263,6 +267,10 @@ header.container {
     content: "\00bb";
 }
 
+.sidenav .nav>li>a {
+    padding: 8px 15px;
+}
+
 .sidenav .toggle-button {
     display: block;
     margin-top: 3px;
@@ -470,6 +478,10 @@ header.container {
     white-space: nowrap;
 }
 
+.visualclear {
+    clear: both;
+}
+
 /* Image (custom) --------------------------------------------------------- */
 
 .img-rounded {
@@ -500,11 +512,15 @@ header.container {
 }
 
 .sm iframe  {
-    width: 803px;
+    width: 700px;
 }
 
 .md iframe  {
     width: 920px;
+}
+
+.lg iframe  {
+    width: 925px;
 }
 
 .video-player iframe {
@@ -512,6 +528,33 @@ header.container {
     width: 100%;
     max-width: 560px;
     max-height: 315px;
+}
+
+/* Printing button prompt ------------------------------------------------- */
+
+@-webkit-keyframes flash-orange {
+    0% { background-color: #fff; border-color: #ccc; }
+    50% { background-color: #f0ad4e; border-color: #eea236; }
+    100% { background-color: #fff; border-color: #ccc; }
+}
+
+@-moz-keyframes flash-orange {
+    0% { background-color: #fff; border-color: #ccc; }
+    50% { background-color: #f0ad4e; border-color: #eea236; }
+    100% { background-color: #fff; border-color: #ccc; }
+}
+
+@-ms-keyframes flash-orange {
+    0% { background-color: #fff; border-color: #ccc; }
+    50% { background-color: #f0ad4e; border-color: #eea236; }
+    100% { background-color: #fff; border-color: #ccc; }
+}
+
+.flash {
+  -moz-animation: flash-orange 2s infinite;
+  -webkit-animation: flash-orange 2s infinite;
+  -ms-animation: flash-orange 2s infinite;
+  animation: flash-orange 2s infinite;
 }
 
 @media (max-width: 415px) {
@@ -548,8 +591,11 @@ header.container {
     .footer-logos img {
         height: 50px;
     }
-    .sm iframe {
-        width: 803px;
+    .all-width-warning {
+        display: none;
+    }
+    .sm-width-warning {
+        display: none;
     }
 }
 
@@ -557,7 +603,7 @@ header.container {
     .sm iframe  {
         width: 920px;
     }
-    .width-warning {
+    .md-width-warning {
         display: none;
     }
 }

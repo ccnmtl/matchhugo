@@ -16,16 +16,10 @@ previous: "../case-3-emma/"
 </div><div class="pageblock"><table>
 <tr>
 <td>
-<table class="noborders">
-<tr>
-<td>
-{{< figure src="/img/assets/sw_icon4.png" alt="" class="" name="" usemap="">}}</td>
-<td>
-<h3>Early Intervention and Education</h3>
-<div class="maintext"><p>While pediatric dentists typically think of early intervention as caries-prevention for infants and toddlers, the concept also applies to conditions that develop later in a child's development like anorexia and bulimia. In consultation with a social worker, you can develop an integrated course of action on how to approach Emma and her family to discuss your concerns. Many social workers specialize in issues of child and adolescent behavior.</p>
-</div></td>
-</tr>
-</table>
+<div class="left" style="margin: 0 15px 0 0;">
+{{< figure src="/img/assets/sw_icon4.png" alt="" class="" name="" usemap="">}}</div>
+<div class="seven-ways"><h3>Early Intervention and Education</h3>
+<div class="maintext"><p>While pediatric dentists typically think of early intervention as caries-prevention for infants and toddlers, the concept also applies to conditions that develop later in a child's development like anorexia and bulimia. In consultation with a social worker, you can develop an integrated course of action on how to approach Emma and her family to discuss your concerns. Many social workers specialize in issues of child and adolescent behavior.</p></div></div>
 </td>
 </tr>
 </table>
