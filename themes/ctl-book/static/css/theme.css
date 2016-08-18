@@ -37,10 +37,6 @@ h5 {
     margin-top: 20px;
 }
 
-figure {
-    margin-bottom: 20px;
-}
-
 /* Table styles */
 table
 {
@@ -461,17 +457,17 @@ header.container {
 
 .left {
     float: left;
-    margin: 15px;
+    margin: 0 10px 10px 0;
 }
 
 .right {
     float: right;
-    margin: 15px;
+    margin: 0 0 10px 10px;
 }
 
 .center {
     text-align: center;
-    margin: 15px;
+    margin: 10px;
 }
 
 .nowrap {

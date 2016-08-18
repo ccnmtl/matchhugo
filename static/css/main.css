@@ -101,6 +101,15 @@ td
     line-height: 25px;
 }
 
+.glossary dt {
+    margin: 15px 0 0 0;
+    font-size: 16px;
+}
+
+.glossary dd {
+    margin-left: 15px;
+}
+
 /* Did You Know */
 .did_you_know
 {
@@ -363,14 +372,16 @@ div.complete-feedback-quiz div.quiz-feedback span:before {
     height: 1200px;
 }
 
-.dentaloffice iframe {
-    height: 1150px;
-    min-width: 860px;
+.speechdiagnoses iframe {
+    height: 695px;
 }
 
-.ruralhealth iframe {
-    height: 1450px;
-    min-width: 860px;
+.speechassessment iframe {
+    height: 595px;
+}
+
+.swallowassessment iframe {
+    height: 470px;
 }
 
 .elderissues iframe {

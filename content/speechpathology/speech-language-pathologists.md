@@ -11,9 +11,9 @@ depth: 3
 next: "../what-diagnoses-does-a-speech-language-pathologist-/"
 previous: "../objectives/"
 ---
-<div class="pageblock"><h3>What is a Speech-Language Pathologist (SLP)?</h3>
+<div class="pageblock"><h3>What is a Speech-Language Pathologist (SLP)?</h3><p>{{< figure src="/img/assets/8758911091_29a667c6e_jpg_600x600_q85.jpg" alt="" class="right img-rounded img-polaroid" name="" usemap="">}}</p>
 <p>Speech-language pathologists assess and treat individuals throughout their lifespan with speech disorders, language disorders, cognitive-communication disorders, and swallowing disorders. SLPs are also called speech pathologists, speech therapists, or speech teachers.</p>
-{{< figure src="/img/assets/8758911091_29a667c6e_jpg_600x600_q85.jpg" alt="" class="right img-rounded img-polaroid" name="" usemap="">}}</div><div class="pageblock did_you_know"><h3>Did you know?</h3>
+</div><div class="pageblock did_you_know"><h3>Did you know?</h3>
 <div class="pullquote"><p>3 million Americans stutter?</p></div>
 </div><div class="pageblock"><h3>Education & Licensing</h3><p>SLPs should hold their Certificate of Clinical Competency in Speech-Language Pathology (CCC-SLP). This is an internationally recognized professional credentialing from the American Speech-Language and Hearing Association (ASHA).</p>
 <p>In order to obtain the Certificate of Clinical Competency, SLPs must complete graduate training at an accredited program of at least 36 semester credit hours. Training includes coursework in normal development courses, anatomy and physiology of the speech and hearing mechanisms, neurology, and coursework in various related disorders.</p>

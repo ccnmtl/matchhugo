@@ -8,7 +8,7 @@ menu:
     weight: 13
     identifier: "conclusion"
 depth: 3
-next: "../course-complete/"
+next: "../glossary/"
 previous: "../case2followup/"
 ---
 <div class="pageblock"><p>All caregivers want the best for their children. They want them to be healthy and happy and well-adjusted within their surroundings. Communication and feeding are two of the most important behaviors for thriving medically and socially. It is impossible for a caregiver to be totally objective with regard to their child’s strengths and weaknesses. Most families are appreciative when medical and educational specialists advocate for their child’s optimal well-being by referring them to allied professionals. This creates thriving professional relationships and thriving practices. As pediatric dentists, you are the frontline of a child's "team" of professionals and can superbly serve your patients by this enhanced awareness of all pathologies related to speech, language, and swallowing.</p>

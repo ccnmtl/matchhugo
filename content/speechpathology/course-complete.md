@@ -5,10 +5,10 @@ type: "module-page"
 menu:
   speechpathology:
     parent: "speechpathology"
-    weight: 14
+    weight: 15
     identifier: "course-complete"
 depth: 3
-previous: "../conclusion/"
+previous: "../glossary/"
 ---
 <div class="pageblock"><h3>Congratulations!</h3><div class="maintext">
 <p>If you would like Continuing Dental Education credit for this module, first complete the  <strong>required</strong> brief survey on the next page.</p>
