@@ -11,10 +11,10 @@ depth: 3
 next: "../meet-nick/"
 previous: "../nutrition-and-pediatric-population/"
 ---
-<div class="pageblock">
-<p>Early Childhood Caries (ECC) is the most prevalent chronic disease of US children. The importance of diet has long been well established through laboratory, clinical, and epidemiological studies.</p>
+<div class="pageblock right">
+{{< figure src="/img/assets/boy_with_cupcake.jpg" alt="" class="" name="" usemap="">}}</div><div class="pageblock"><p>Early Childhood Caries (ECC) is the most prevalent chronic disease of US children. The importance of diet has long been well established through laboratory, clinical, and epidemiological studies.</p>
 <p>Children, now more than ever, are consuming high fat, high sugar diets leaving them at higher risk for obesity and caries. The growth of the food industry and ease of access to highly processed foods has helped lead to the progression of childhood chronic diseases. Educating parents and their children about healthy eating is important, but more critical is determining why they are eating the way they are and the consistent follow up that leads to behavioral change.</p>
-{{< figure src="/img/assets/boy_with_cupcake.jpg" alt="" class="right" name="" usemap="">}}</div><div class="pageblock"><h3>Dental Caries Dietary Risk Factors</h3><table style="border: 0; width: 600px;">
+</div><div class="pageblock"><h3>Dental Caries Dietary Risk Factors</h3><table style="border: 0; width: 600px;">
 <tbody>
 <tr>
 <td style="border: 0;">

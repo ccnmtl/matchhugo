@@ -20,15 +20,15 @@ previous: "../registered-dietitians/"
 <li>Sports nutrition and corporate wellness</li>
 <li>Academia and research</li>
 </ul>
-</div><div class="pageblock"><h3>What roles to Registered Dietitians play?</h3>
-<p>The majority of registered dietitians work in the treatment and prevention of disease administering medical nutrition therapy often in hospitals, private practice, or other health care facilities.</p>
+</div><div class="pageblock right">
+{{< figure src="/img/assets/dietitian_advice.jpg" alt="" class="" name="" usemap="">}}</div><div class="pageblock"><h3>What roles to Registered Dietitians play?</h3><p>The majority of registered dietitians work in the treatment and prevention of disease administering medical nutrition therapy often in hospitals, private practice, or other health care facilities.</p>
 <p>Medical nutrition therapy includes:</p>
 <ul>
 <li><strong>Performing</strong> a comprehensive nutrition assessment determining the nutrition diagnosis</li>
 <li><strong>Planning</strong> and implementing a nutrition intervention using evidence-based nutrition practice guidelines</li>
 <li><strong>Monitoring</strong> and evaluating an individual’s progress over subsequent visits with the RD</li>
 </ul>
-{{< figure src="/img/assets/dietitian_advice.jpg" alt="" class="right" name="" usemap="">}}</div><div class="pageblock"><h3>Nutrition Care Process</h3><p>Following a similar care model to pediatric dentists, registered dietitians follow a standardized process that directs them in providing high quality nutrition care.</p>
+</div><div class="pageblock"><h3>Nutrition Care Process</h3><p>Following a similar care model to pediatric dentists, registered dietitians follow a standardized process that directs them in providing high quality nutrition care.</p>
 <ol>
 <li>Nutrition Assessment</li>
 <li>Nutrition Diagnosis</li>
