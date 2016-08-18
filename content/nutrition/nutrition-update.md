@@ -12,7 +12,7 @@ next: "../nutrition-and-pediatric-population/"
 previous: "../roles-of-registered-dietitians/"
 ---
 <div class="pageblock"><p>Pediatric dental offices are engaged in diet counseling every day with a direct focus on caries prevention. Pediatric dentists are in a prime position to initiate dietary education for families and impact their patients’ health beyond their dentition.</p>
-</div><div class="pageblock">
+</div><div class="pageblock center">
 <div class="caption">
 </div>
 {{< figure src="/img/assets/pyramid_jpg_600x600_q85.jpg" alt="" class="" name="" usemap="">}}</div><div class="pageblock"><p>The MyPyramid Food Guidance System, a pictorial representation of the USDA’s Daily Food and Physical Activity Recommendations, was updated in 2011 to MyPlate.</p>

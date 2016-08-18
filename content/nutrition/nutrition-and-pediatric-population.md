@@ -13,7 +13,7 @@ previous: "../nutrition-update/"
 ---
 <div class="pageblock"><p>Registered dietitians consult with the pediatric population regarding a variety of conditions, many of which you may experience with your patient population.</p>
 <p>Hover over the circles below to learn some interesting facts about nutrition and the pediatric population.</p>
-</div><div class="pageblock pediatric-nutrition-map">
+</div><div class="pageblock pediatric-nutrition-map center">
 <map name="pediatricnutritionmap">
 <area alt="" coords="161,192,59" onmouseover="pediatricnutrition00()" shape="circle" title=""></area>
 <area alt="" coords="161,64,47" onmouseover="pediatricnutrition01()" shape="circle" title=""></area>

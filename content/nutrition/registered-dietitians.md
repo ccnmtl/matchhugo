@@ -11,9 +11,9 @@ depth: 3
 next: "../roles-of-registered-dietitians/"
 previous: "../objectives/"
 ---
-<div class="pageblock"><h3>What is a Registered Dietitian (RD)?</h3>
-<p>Skilled in promoting behavioral change, RDs provide more than just casual dietary instruction. Registered Dietitians (RDs) are health care professionals who use their expertise in food and nutrition to help individuals make positive lifestyle changes.</p>
-{{< figure src="/img/assets/children_eating_heal.jpg" alt="" class="right" name="" usemap="">}}</div><div class="pageblock"><h3>Education, Licensing & Specialties</h3><p>RDs have met academic and professional requirements including:</p>
+<div class="pageblock right">
+{{< figure src="/img/assets/children_eating_heal.jpg" alt="" class="" name="" usemap="">}}</div><div class="pageblock"><h3>What is a Registered Dietitian (RD)?</h3><p>Skilled in promoting behavioral change, RDs provide more than just casual dietary instruction. Registered Dietitians (RDs) are health care professionals who use their expertise in food and nutrition to help individuals make positive lifestyle changes.</p>
+</div><div class="pageblock"><h3>Education, Licensing & Specialties</h3><p>RDs have met academic and professional requirements including:</p>
 <br style="clear: both;"/>
 <table>
 <tbody>

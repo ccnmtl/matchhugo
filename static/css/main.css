@@ -356,3 +356,67 @@ div.complete-feedback-quiz div.casetitle {
 div.complete-feedback-quiz div.quiz-feedback span:before {
     content: "Thank you for your response. Continue to learn what happens next."
 }
+
+/* Interactives embed ----------------------------------------------------- */
+
+.dentalvisit iframe {
+    height: 1150px;
+}
+
+.dentaloffice iframe {
+    height: 1150px;
+    min-width: 860px;
+}
+
+.ruralhealth iframe {
+    height: 1450px;
+    min-width: 860px;
+}
+
+.elderissues iframe {
+    height: 740px;
+}
+
+.supportservices iframe {
+    height: 770px;
+}
+
+.specialneedsvisit iframe {
+    height: 960px;
+}
+
+
+/* Interactives embed ----------------------------------------------------- */
+
+@media (min-width: 768px) {
+}
+
+@media (max-width: 991px) {
+    .ruralhealth iframe {
+        width: 860px;
+    }
+    .dentaloffice iframe {
+        width: 860px;
+    }
+    .elderissues iframe {
+        width: 800px;
+    }
+}
+
+@media (min-width: 992px) {
+    .supportservices iframe {
+        height: 690px;
+    }
+    .specialneedsvisit iframe {
+        height: 860px;
+    }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media print {
+    .submit-container {
+        display: none;
+    }
+}
