@@ -30,15 +30,6 @@ a:visited
 	text-decoration: none;
 }
 
-table
-{
-    margin: 0 0 1em 0;
-    padding: 0;
-    border: 1px solid #ccc;
-    border-collapse: collapse;
-    font-size: 100%;
-}
-
 table.noborders,
 table.noborders td
 
@@ -46,25 +37,6 @@ table.noborders td
     border: none;
     padding: 10px 10px 0 10px;
     vertical-align: top;
-}
-
-table tbody
-{
-    border: 0;
-}
-
-th
-{
-    border: 1px solid #999;
-    border-collapse: collapse;
-    padding: 5px;
-}
-
-td
-{
-    border: 1px solid #999;
-    border-collapse: collapse;
-    padding: 5px;
 }
 
 .pullquote
@@ -384,8 +356,8 @@ div.complete-feedback-quiz div.quiz-feedback span:before {
     height: 470px;
 }
 
-.elderissues iframe {
-    height: 740px;
+.anticipatoryguidance iframe {
+    height: 610px;
 }
 
 .supportservices iframe {

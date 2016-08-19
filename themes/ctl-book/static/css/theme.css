@@ -42,9 +42,9 @@ table
 {
     margin: 0 0 1em 0;
     padding: 0;
-    border: 1px solid #ccc;
+    border: 1px solid #999;
     border-collapse: collapse;
-    font-size: 100%;
+    min-width: 600px;    
 }
 
 table.noborders,
@@ -67,6 +67,16 @@ th
     border-collapse: collapse;
     padding: 5px;
     text-align: center;
+    background-color: #d5eff0;
+}
+
+th.table-header {
+    background-color: #a5d3d5;
+}
+
+th.l2 {
+    background-color: #efefef;
+    font-weight: normal;
 }
 
 td

@@ -8,7 +8,7 @@ menu:
     weight: 17
     identifier: "case-2-meet-justin"
 depth: 3
-next: "../initial-evaluation/"
+next: "../initial-evaluation-2/"
 previous: "../dr-browns-next-steps/"
 ---
 <div class="pageblock right img-polaroid img-rounded">
