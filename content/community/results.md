@@ -13,30 +13,24 @@ previous: "../analysis/"
 ---
 <div class="pageblock"><h3>Summary</h3><p>Findings demonstrate that the addition of the CDHC has aided in improving access to dental care among preschool children in the community through patient navigation and coordination of care. Over a ten month period, 5831 children were served in the elementary schools for a total of 1,023 school visits over 69 days. Four hundred one of those 583 <sup>1</sup> children went on to receive comprehensive dental care in the dental clinic; 234 of those had not been seen at the dental clinic prior to being seen at school. Typically, these children came to the clinic 90 <sup>2</sup> days after screening. The total care value of services provided to the children seen in the elementary schools and brought into the dental clinic through elementary school
 outreach was $602,862. Outreach services alone amounted to $373,880 of care, while $228,982 of care was provided at the dental clinic during that ten-month period.</p>
-</div><div class="pageblock"><h3>Elementary School Outreach Events</h3><p></p>
-<style type="text/css">
-table.form {width: 100%}
-table {border: 2px solid black;}
-<table frame="box">
-</style>
-<table class="form">
+</div><div class="pageblock"><h3>Elementary School Outreach Events</h3><table>
 <tr>
 <th>Patients:</th>
-<th>583</th>
+<td>583</td>
 </tr>
 <tr>
 <th>Visits:</th>
-<th>1,023</th>
+<td>1,023</td>
 </tr>
 <tr>
-<th>Procedures:</th><th>7,711</th>
+<th>Procedures:</th><td>7,711</td>
 </tr>
 </table>
 </div><div class="pageblock"><p>Overall, there were differences in the types of services provided to these children at the school compared to services they received at the dental clinic. At school, the majority care provided was preventive.</p>
 <p>On average, children had 2 visits, 7 dental procedures (dental services) per visit, and received $641 of total care, or $365 of care per visit.</p>
-</div><div class="pageblock"><table class="visit">
+</div><div class="pageblock"><table>
 <tr>
-<td></td>
+<td> </td>
 <th>Mean</th>
 <th>Median <sup>3</sup></th>
 <th>S.D.</th>
@@ -45,7 +39,7 @@ table {border: 2px solid black;}
 <th>N (children)</th>
 </tr>
 <tr>
-<td class="none">Number of Visits</td>
+<th class="l2 text-left">Number of Visits</th>
 <td>1.8</td>
 <td>2.0</td>
 <td>0.8</td>
@@ -54,7 +48,7 @@ table {border: 2px solid black;}
 <td>583</td>
 </tr>
 <tr>
-<td class="none">Care Value per Visit</td>
+<th class="l2 text-left">Care Value per Visit</th>
 <td>$365</td>
 <td>$333</td>
 <td>$287</td>
@@ -63,7 +57,7 @@ table {border: 2px solid black;}
 <td>583</td>
 </tr>
 <tr>
-<td class="none">Number of services per visit</td>
+<th class="l2 text-left">Number of services per visit</th>
 <td>7.5</td>
 <td>7.0</td>
 <td>5.4</td>
@@ -72,7 +66,7 @@ table {border: 2px solid black;}
 <td>583</td>
 </tr>
 <tr>
-<td class="none">Total care value</td>
+<th class="l2 text-left">Total care value</th>
 <td>$641</td>
 <td>$619</td>
 <td>$435</td>
@@ -82,86 +76,79 @@ table {border: 2px solid black;}
 </tr>
 </table>
 </div><div class="pageblock"><p> <i>Services provided.</i> 7,711 dental procedures were performed in school.</p>
-</div><div class="pageblock"><table class="prd">
+</div><div class="pageblock"><table>
 <tr>
 <td colspan="2" rowspan="2"></td>
-<th colspan="2">Procedures at Elementary School</th>
+<th class="table-header" colspan="2">Procedures at Elementary School</th>
 </tr>
 <tr>
-<td class="purple">Frequency <sup>4</sup></td>
-<td class="purple">Percent</td>
+<th>Frequency <sup>4</sup></th>
+<th>Percent</th>
 </tr>
 <tr>
-<td class="none">D1110-D1120</td>
-<td class="none">Dental prophylaxis</td>
+<th class="l2 text-left">D1110-D1120</th>
+<th class="l2 text-left">Dental prophylaxis</th>
 <td>716</td>
 <td>9.3</td>
 </tr>
 <tr>
-<td class="none">D1206</td>
-<td class="none">Fluoride varnish</td>
+<th class="l2 text-left">D1206</th>
+<th class="l2 text-left">Fluoride varnish</th>
 <td>603</td>
 <td>7.9</td>
 </tr>
 <tr>
-<td class="none">D1351</td>
-<td class="none">Sealant</td>
+<th class="l2 text-left">D1351</th>
+<th class="l2 text-left">Sealant</th>
 <td>3,966</td>
 <td>51.4</td>
 </tr>
 <tr>
-<td class="none">D1201-D1999</td>
-<td class="none">Other preventive procedures</td>
+<th class="l2 text-left">D1201-D1999</th>
+<th class="l2 text-left">Other preventive procedures</th>
 <td>1,844</td>
 <td>23.9</td>
 </tr>
 <tr>
-<td class="none">D2000-D2999</td>
-<td class="none">Restorative procedures</td>
+<th class="l2 text-left">D2000-D2999</th>
+<th class="l2 text-left">Restorative procedures</th>
 <td>577</td>
 <td>7.5</td>
 </tr>
 <tr>
-<td class="none">D4000-D4999</td>
-<td class="none">Periodontics</td>
+<th class="l2 text-left">D4000-D4999</th>
+<th class="l2 text-left">Periodontics</th>
 <td>5</td>
 <td>0.1</td>
 </tr>
 <tr>
-<td class="none"></td>
-<td class="none"><b>TOTAL</b></td>
-<td bgcolor="#99CCFF">7,711</td>
-<td bgcolor="#99CCFF">100.0</td>
+<td> </td>
+<th class="text-right">TOTAL</th>
+<td style="border-top: 3px solid #999;"><b>7,711</b></td>
+<td style="border-top: 3px solid #999;"><b>100.0</b></td>
 </tr></table>
-</div><div class="pageblock"><h3>Dental Care in the Dental Clinic</h3><p></p>
-<style type="text/css">
-table.form {width: 100%}
-table {border: 2px solid black;}
-<table frame="box">
-</style>
-<table class="form">
+</div><div class="pageblock"><h3>Dental Care in the Dental Clinic</h3><table>
 <tr>
 <th>Patients:</th>
-<th>397</th>
+<td>397</td>
 </tr>
 <tr>
 <th>Visits:</th>
-<th>896</th>
+<td>896</td>
 </tr>
 <tr>
 <th>Procedures:</th>
-<th>3,618</th>
+<td>3,618</td>
 </tr>
 <tr>
 <th>New Patients</th>
-<th>234</th>
+<td>234</td>
 </tr>
 </table>
-<p></p>
 <p>On average, children had 2 visits, 3 dental procedures (dental services) per visit, and received $577 of total care, or $256 of care per visit.</p>
-</div><div class="pageblock"><table class="visit">
+</div><div class="pageblock"><table>
 <tr>
-<td></td>
+<td> </td>
 <th>Mean</th>
 <th>Median <sup>2</sup></th>
 <th>S.D.</th>
@@ -170,7 +157,7 @@ table {border: 2px solid black;}
 <th>N (children)</th>
 </tr>
 <tr>
-<td class="none">Number of Visits</td>
+<th class="l2 text-left">Number of Visits</th>
 <td>2.3</td>
 <td>2.0</td>
 <td>1.5</td>
@@ -179,7 +166,7 @@ table {border: 2px solid black;}
 <td>397</td>
 </tr>
 <tr>
-<td class="none">Care Value per Visit</td>
+<th class="l2 text-left">Care Value per Visit</th>
 <td>$256</td>
 <td>$230</td>
 <td>$192</td>
@@ -188,7 +175,7 @@ table {border: 2px solid black;}
 <td>397</td>
 </tr>
 <tr>
-<td class="none">Number of services per visit</td>
+<th class="l2 text-left">Number of services per visit</th>
 <td>4.0</td>
 <td>3.0</td>
 <td>3.1</td>
@@ -197,7 +184,7 @@ table {border: 2px solid black;}
 <td>397</td>
 </tr>
 <tr>
-<td class="none">Total care value</td>
+<th class="l2 text-left">Total care value</th>
 <td>$577</td>
 <td>$423</td>
 <td>$537</td>
@@ -207,137 +194,137 @@ table {border: 2px solid black;}
 </tr>
 </table>
 </div><div class="pageblock"><p> <i>Services provided.</i> 3,618 dental procedures were performed in the dental clinic.</p>
-</div><div class="pageblock"><table class="prd">
+</div><div class="pageblock"><table>
 <tr>
-<td colspan="2" rowspan="2"></td>
-<th colspan="3">Procedures at Dental Clinic</th>
+<td colspan="2" rowspan="2"> </td>
+<th class="table-header" colspan="3">Procedures at Dental Clinic</th>
 </tr>
 <tr>
-<td class="purple">Frequency <sup>3</sup></td>
-<td class="purple">Percent</td>
-<td class="purple">Fee (per procedure)</td>
+<th>Frequency <sup>3</sup></th>
+<th>Percent</th>
+<th>Fee (per procedure)</th>
 </tr>
 <tr>
-<td class="none">D0120-D0180</td>
-<td class="none">Clinical oral evaluation</td>
+<th class="l2 text-left">D0120-D0180</th>
+<th class="l2 text-left">Clinical oral evaluation</th>
 <td>435</td>
 <td>12.0</td>
 <td>$56 - 88</td>
 </tr>
 <tr>
-<td class="none">D0210-D0350</td>
-<td class="none">Radiographs/diagnostic imaging</td>
+<th class="l2 text-left">D0210-D0350</th>
+<th class="l2 text-left">Radiographs/diagnostic imaging</th>
 <td>514</td>
 <td>14.2</td>
 <td>$0 - 109</td>
 </tr>
 <tr>
-<td class="none">D0415-D0999</td>
-<td class="none">Other diagnostics</td>
+<th class="l2 text-left">D0415-D0999</th>
+<th class="l2 text-left">Other diagnostics</th>
 <td>10</td>
 <td>0.3</td>
 <td>$0</td>
 </tr>
 <tr>
-<td class="none">D1110-D1120</td>
-<td class="none">Dental prophylaxis</td>
+<th class="l2 text-left">D1110-D1120</th>
+<th class="l2 text-left">Dental prophylaxis</th>
 <td>298</td>
 <td>8.2</td>
 <td>$62 - 84</td>
 </tr>
 <tr>
-<td class="none">D1206</td>
-<td class="none">Fluoride varnish</td>
+<th class="l2 text-left">D1206</th>
+<th class="l2 text-left">Fluoride varnish</th>
 <td>465</td>
 <td>12.9</td>
 <td>$40</td>
 </tr>
 <tr>
-<td class="none">D1351</td>
-<td class="none">Sealant</td>
+<th class="l2 text-left">D1351</th>
+<th class="l2 text-left">Sealant</th>
 <td>826</td>
 <td>22.8</td>
 <td>$47</td>
 </tr>
 <tr>
-<td class="none">D1201-D1999</td>
-<td class="none">preventive procedures</td>
+<th class="l2 text-left">D1201-D1999</th>
+<th class="l2 text-left">preventive procedures</th>
 <td>544</td>
 <td>15.0</td>
 <td>$0 - 57</td>
 </tr>
 <tr>
-<td class="none">D2000-D2999</td>
-<td class="none">Restorative procedures</td>
+<th class="l2 text-left">D2000-D2999</th>
+<th class="l2 text-left">Restorative procedures</th>
 <td>367</td>
 <td>10.1</td>
 <td>$0 - 279</td>
 </tr>
 <tr>
-<td class="none">D3000-D3999</td>
-<td class="none">Endodontics</td>
+<th class="l2 text-left">D3000-D3999</th>
+<th class="l2 text-left">Endodontics</th>
 <td>33</td>
 <td>0.9</td>
 <td>$81 - 706</td>
 </tr>
 <tr>
-<td class="none">D4000-D4999</td>
-<td class="none">Periodontics</td>
+<th class="l2 text-left">D4000-D4999</th>
+<th class="l2 text-left">Periodontics</th>
 <td>4</td>
 <td>0.1</td>
 <td>$140 - 250</td>
 </tr>
 <tr>
-<td class="none">D7000-D7999</td>
-<td class="none">Oral and maxillofacial surgery</td>
+<th class="l2 text-left">D7000-D7999</th>
+<th class="l2 text-left">Oral and maxillofacial surgery</th>
 <td>108</td>
 <td>3.0</td>
 <td>$0 - 273</td>
 </tr>
 <tr>
-<td class="none">D9000-D9999</td>
-<td class="none">Adjunctive general services</td>
+<th class="l2 text-left">D9000-D9999</th>
+<th class="l2 text-left">Adjunctive general services</th>
 <td>14</td>
 <td>0.4</td>
 <td>$0 - 130</td>
 </tr>
 <tr>
-<td class="none"></td>
-<td class="none"><b>TOTAL</b></td>
-<td bgcolor="#99CCFF">3,618</td>
-<td bgcolor="#99CCFF">100.0</td>
-<td bgcolor="#99CCFF">--</td>
+<th class="l2 text-left"> </th>
+<th class="l2 text-left"><b>TOTAL</b></th>
+<td style="border-top: 3px solid #999;"><b>3,618</b></td>
+<td style="border-top: 3px solid #999;"><b>100.0</b></td>
+<td style="border-top: 3px solid #999;"><b>--</b></td>
 </tr></table>
 </div><div class="pageblock"><p>For elementary school children who made an appointment at the dental clinic, the rate of missed appointments was 16% (of appointments made); the rate of cancelled appointments was 3.5%.</p>
 <p><i>New Children </i><sup>5</sup> prior to their dental visit at school and went on to receive comprehensive care at the dental clinic. These children came to the dental clinic approximately 90 days after screening at the school (mean=93.2,). Over one-third (38.4%) of these children visited the clinic within two months of their screening at school (median=90.0).</p>
-</div><div class="pageblock"><table class="chl">
-<tr bgcolor="#CCFFCC">
-<td><i>Time between screening and clinic visit</i></td>
-<td><i>Frequency</i> <sup>3</sup></td>
-<td><i>Percent</i></td>
+</div><div class="pageblock"><table>
+<tr>
+<th>Time between screening and clinic visit</th>
+<th>Frequency <sup>3</sup></th>
+<th>Percent</th>
 </tr>
 <tr>
-<td>Less than one month</td>
+<th class="l2 text-left">Less than one month</th>
 <td>42</td>
 <td>17.9</td>
 </tr>
 <tr>
-<td>One to two months</td>
+<th class="l2 text-left">One to two months</th>
 <td>48</td>
 <td>20.5</td>
 </tr>
 <tr>
-<td>Two to three months</td>
+<th class="l2 text-left">Two to three months</th>
 <td>29</td>
 <td>12.4</td>
 </tr>
 <tr>
-<td>Three to four months</td>
+<th class="l2 text-left">Three to four months</th>
 <td>47</td>
 <td>20.1</td>
 </tr>
 <tr>
-<td>Over four months</td>
+<th class="l2 text-left">Over four months</th>
 <td>68</td>
 <td>29.1</td>
 </tr>

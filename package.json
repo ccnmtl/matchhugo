@@ -20,7 +20,7 @@
     "speechassessment-pack": "^0.1.4",
     "speechdiagnoses-pack": "^0.1.4",
     "swallowassessment-pack": "^0.1.4",
-    "anticipatoryguidance-pack": "^0.1.3",
+    "anticipatoryguidance-pack": "^0.1.4",
     "webpack": "^1.13.1"
   },
   "devDependencies": {
