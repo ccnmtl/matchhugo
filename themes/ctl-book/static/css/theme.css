@@ -56,6 +56,10 @@ table.noborders td
     vertical-align: top;
 }
 
+table caption {
+    color: #000;
+}
+
 table tbody
 {
     border: 0;
