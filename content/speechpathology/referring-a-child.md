@@ -24,7 +24,7 @@ previous: "../swallow-assessments/"
 <li><strong>Outpatient speech-language pathology clinic</strong> within a graduate program (also called communication disorders or communication sciences), found at a local university</li>
 <li><strong>International Association of Orofacial Myology:</strong> the <a href="http://www.iaom.com/memDirectory.html" target="_blank">IAOM.com</a>.</li>
 </ul>
-</div><div class="pageblock"><h3>How to make a referral list of speech-language pathologists</h3>
+</div><div class="pageblock"><h3>How to make a referral list of speech-language pathologists</h3><p>{{< figure src="/img/assets/8758910011_51a28b54a_jpg_600x600_q85.jpg" alt="" class="right img-polaroid img-rounded" name="" usemap="">}}</p>
 <p>Using the list above, call those places and organizations to comprise a referral list for your area. Be sure to ask about insurance coverage when you make contacts as it is getting increasingly more difficult to collect reimbursement from insurance companies for communication disorders which are developmental in nature.</p>
 
 Send a letter requesting the following information:
@@ -34,7 +34,7 @@ Send a letter requesting the following information:
 <li>Do they take insurance?</li>
 <li>Do they serve children through Early Intervention (EI) or children with an Individualized Education Plan (IEP)</li>
 </ul>
-{{< figure src="/img/assets/8758910011_51a28b54a_jpg_600x600_q85.jpg" alt="" class="right img-polaroid img-rounded" name="" usemap="">}}</div><div class="pageblock"><h3>Examples of what to include in your referral list</h3><table>
+</div><div class="pageblock"><h3>Examples of what to include in your referral list</h3><table>
 <tr>
 <th>Fields</th>
 <th>Types of information to include</th>
