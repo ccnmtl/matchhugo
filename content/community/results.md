@@ -122,8 +122,7 @@ outreach was $602,862. Outreach services alone amounted to $373,880 of care, whi
 <td>0.1</td>
 </tr>
 <tr>
-<td> </td>
-<th class="text-right">TOTAL</th>
+<th class="text-right" colspan="2">TOTAL</th>
 <td style="border-top: 3px solid #999;"><b>7,711</b></td>
 <td style="border-top: 3px solid #999;"><b>100.0</b></td>
 </tr></table>
@@ -289,8 +288,7 @@ outreach was $602,862. Outreach services alone amounted to $373,880 of care, whi
 <td>$0 - 130</td>
 </tr>
 <tr>
-<th class="l2 text-left"> </th>
-<th class="l2 text-left"><b>TOTAL</b></th>
+<th class="text-right" colspan="2">TOTAL</th>
 <td style="border-top: 3px solid #999;"><b>3,618</b></td>
 <td style="border-top: 3px solid #999;"><b>100.0</b></td>
 <td style="border-top: 3px solid #999;"><b>--</b></td>

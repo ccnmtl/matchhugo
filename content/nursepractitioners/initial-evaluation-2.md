@@ -11,7 +11,7 @@ depth: 4
 next: "../areas-of-concern-to-address-2/"
 previous: "../case-2-meet-justin/"
 ---
-<div class="pageblock gray_header"><h4>Dr. Brown obtains the following information on her initial evaluation:</h4>
+<div class="pageblock"><h4>Dr. Brown obtains the following information on her initial evaluation:</h4>
 <table>
 <tr>
 <th>Patient Profile
