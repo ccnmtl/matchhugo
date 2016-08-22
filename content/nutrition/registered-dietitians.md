@@ -18,27 +18,27 @@ previous: "../objectives/"
 <table>
 <tbody>
 <tr>
-<th align="left">Bachelor’s degree </th>
+<th class="text-left">Bachelor’s degree </th>
 <td align="left">Earn a bachelor’s degree with course work approved by the Academy’s Accreditation Council for Education in Nutrition and Dietetics. Coursework typically includes food and nutrition sciences, foodservice systems, management, business, sociology, chemistry, and physiology.</td>
 </tr>
 <tr>
-<th align="left">Supervised Practice </th>
+<th class="text-left">Supervised Practice </th>
 <td align="left">Complete an accredited, supervised practice program at a health-care facility, community agency, or foodservice corporation. This is usually completed in 8-24 months.</td>
 </tr>
 <tr>
-<th align="left">Credentialing Exam </th>
+<th class="text-left">Credentialing Exam </th>
 <td align="left">Pass a national examination administered by the Commission on Dietetic Registration.</td>
 </tr>
 <tr>
-<th align="left">Master’s Degree & PhD </th>
+<th class="text-left">Master’s Degree & PhD </th>
 <td align="left">Approximately 50 percent of RDs hold advanced degrees.</td>
 </tr>
 <tr>
-<th align="left">Specialty Certifications </th>
+<th class="text-left">Specialty Certifications </th>
 <td align="left">Some RDs hold additional certifications in specialized areas of practice, such as Pediatrics (CSP), Renal (CSR), Oncology (CSO), Sports Nutrition (CSSD) and Diabetes Education (CDE).</td>
 </tr>
 <tr>
-<th align="left">Continuing Education </th>
+<th class="text-left">Continuing Education </th>
 <td align="left">Completes professional portfolios and continuing educational requirements to maintain registration.</td>
 </tr>
 </tbody>
