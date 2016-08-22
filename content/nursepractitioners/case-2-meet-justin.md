@@ -7,6 +7,7 @@ menu:
     parent: "nursepractitioners"
     weight: 17
     identifier: "case-2-meet-justin"
+    pre: 3
 depth: 3
 next: "../initial-evaluation-2/"
 previous: "../dr-browns-next-steps/"

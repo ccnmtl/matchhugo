@@ -7,6 +7,7 @@ menu:
     parent: "speechpathology"
     weight: 15
     identifier: "course-complete"
+    pre: 3
 depth: 3
 previous: "../glossary/"
 ---

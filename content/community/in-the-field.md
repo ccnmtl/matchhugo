@@ -7,6 +7,7 @@ menu:
     parent: "community"
     weight: 4
     identifier: "in-the-field"
+    pre: 3
 depth: 3
 next: "../case-studies/"
 previous: "../cdhcs-and-the-pediatric-population/"

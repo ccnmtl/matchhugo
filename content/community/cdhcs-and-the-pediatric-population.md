@@ -7,6 +7,7 @@ menu:
     parent: "community"
     weight: 3
     identifier: "cdhcs-and-the-pediatric-population"
+    pre: 3
 depth: 3
 next: "../in-the-field/"
 previous: "../cdhc-roles/"

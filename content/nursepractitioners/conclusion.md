@@ -7,6 +7,7 @@ menu:
     parent: "nursepractitioners"
     weight: 23
     identifier: "conclusion"
+    pre: 3
 depth: 3
 next: "../course-complete/"
 previous: "../dr-jacobs-next-steps/"

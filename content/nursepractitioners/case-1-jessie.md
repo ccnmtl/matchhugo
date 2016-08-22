@@ -7,6 +7,7 @@ menu:
     parent: "nursepractitioners"
     weight: 11
     identifier: "case-1-jessie"
+    pre: 3
 depth: 3
 next: "../initial-evaluation/"
 previous: "../intro-to-case-studies/"

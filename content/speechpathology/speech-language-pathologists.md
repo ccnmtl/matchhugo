@@ -7,6 +7,7 @@ menu:
     parent: "speechpathology"
     weight: 2
     identifier: "speech-language-pathologists"
+    pre: 3
 depth: 3
 next: "../what-diagnoses-does-a-speech-language-pathologist-/"
 previous: "../objectives/"

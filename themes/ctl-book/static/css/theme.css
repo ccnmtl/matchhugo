@@ -284,7 +284,7 @@ header.container {
 }
 
 .sidenav .nav>li>a {
-    padding: 8px 15px;
+    padding: 6px 15px;
 }
 
 .sidenav .toggle-button {
@@ -294,6 +294,14 @@ header.container {
     background-color: transparent;
     border-radius: 5px;
     float: left;
+}
+
+.sidenav .nav>li>a.indent-4 {
+    padding-left: 30px;
+}
+
+.sidenav .nav>li>a.indent-5 {
+    padding-left: 40px;
 }
 
 #sidenav-icon {

@@ -7,6 +7,7 @@ menu:
     parent: "socialwork"
     weight: 14
     identifier: "helping-sanjay"
+    pre: 4
 depth: 4
 next: "../case-3-emma/"
 previous: "../sanjays-situation/"

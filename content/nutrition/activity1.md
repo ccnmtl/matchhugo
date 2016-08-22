@@ -1,5 +1,5 @@
 ---
-title: "Severe Early Childhood Caries Case: Part 1"
+title: "Severe Early Childhood Caries Case"
 module: "Nutrition"
 type: "module-page"
 menu:
@@ -7,6 +7,7 @@ menu:
     parent: "nutrition"
     weight: 8
     identifier: "activity1"
+    pre: 3
 depth: 3
 next: "../activity-wrap-up-exemplar-video/"
 previous: "../meet-nick/"

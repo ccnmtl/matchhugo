@@ -7,6 +7,7 @@ menu:
     parent: "community"
     weight: 7
     identifier: "data-collection"
+    pre: 5
 depth: 5
 next: "../analysis/"
 previous: "../case-study-1/"

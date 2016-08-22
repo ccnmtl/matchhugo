@@ -7,6 +7,7 @@ menu:
     parent: "community"
     weight: 1
     identifier: "what-is-a-community-dental-health-coordinator"
+    pre: 3
 depth: 3
 next: "../cdhc-roles/"
 previous: "../introduction/"
