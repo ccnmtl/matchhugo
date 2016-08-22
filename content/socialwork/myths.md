@@ -7,6 +7,7 @@ menu:
     parent: "socialwork"
     weight: 2
     identifier: "myths"
+    pre: 3
 depth: 3
 next: "../mythfact-question-1/"
 previous: "../social-workers/"

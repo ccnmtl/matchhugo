@@ -7,6 +7,7 @@ menu:
     parent: "nursepractitioners"
     weight: 7
     identifier: "diabetes"
+    pre: 4
 depth: 4
 next: "../gastroesophageal-reflux-disease/"
 previous: "../congenital-heart-disease/"

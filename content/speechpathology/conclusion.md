@@ -7,6 +7,7 @@ menu:
     parent: "speechpathology"
     weight: 13
     identifier: "conclusion"
+    pre: 3
 depth: 3
 next: "../glossary/"
 previous: "../case2followup/"

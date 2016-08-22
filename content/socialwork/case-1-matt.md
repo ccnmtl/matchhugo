@@ -7,6 +7,7 @@ menu:
     parent: "socialwork"
     weight: 9
     identifier: "case-1-matt"
+    pre: 3
 depth: 3
 next: "../examining-matt/"
 previous: "../the-7-ways/"

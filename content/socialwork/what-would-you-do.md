@@ -7,6 +7,7 @@ menu:
     parent: "socialwork"
     weight: 19
     identifier: "what-would-you-do"
+    pre: 3
 depth: 3
 next: "../treatment-options/"
 previous: "../exemplar/"

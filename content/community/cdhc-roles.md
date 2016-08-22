@@ -7,6 +7,7 @@ menu:
     parent: "community"
     weight: 2
     identifier: "cdhc-roles"
+    pre: 3
 depth: 3
 next: "../cdhcs-and-the-pediatric-population/"
 previous: "../what-is-a-community-dental-health-coordinator/"

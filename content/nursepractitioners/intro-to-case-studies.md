@@ -7,6 +7,7 @@ menu:
     parent: "nursepractitioners"
     weight: 10
     identifier: "intro-to-case-studies"
+    pre: 3
 depth: 3
 next: "../case-1-jessie/"
 previous: "../developmental-disabilities/"

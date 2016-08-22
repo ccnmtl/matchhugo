@@ -7,6 +7,7 @@ menu:
     parent: "socialwork"
     weight: 24
     identifier: "course-complete"
+    pre: 3
 depth: 3
 previous: "../feedback/"
 ---

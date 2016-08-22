@@ -7,6 +7,7 @@ menu:
     parent: "speechpathology"
     weight: 9
     identifier: "case-1-maya"
+    pre: 3
 depth: 3
 next: "../case-1-learning-point/"
 previous: "../tips-to-establish-rapport-with-various-age-groups/"
