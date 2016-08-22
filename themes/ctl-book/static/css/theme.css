@@ -58,6 +58,8 @@ table.noborders td
 
 table caption {
     color: #000;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 table tbody
@@ -195,6 +197,10 @@ header.container {
     display: inline-block;
     background-color: #99cc99;
     min-width: 195px;
+}
+
+.module_list li {
+    margin-bottom: 10px;
 }
 
 /* Sidebar navigation ----------------------------------------------------- */
