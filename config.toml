@@ -1,4 +1,5 @@
 baseURL = "http://kodos.ccnmtl.columbia.edu/"
+googleAnalytics = "UA-51144540-13"
 metaDataFormat = "yaml"
 languageCode = "en-us"
 theme = "ctl-book"
