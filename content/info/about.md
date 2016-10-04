@@ -65,7 +65,6 @@ If there are any questions or concerns please contact the Principal Investigator
 
 ##### GRAPHICS DESIGN
 * Zarina Mustapha
-* Rachelle White
 
 ##### VIDEO PRODUCTION
 * Stephanie Ogden
