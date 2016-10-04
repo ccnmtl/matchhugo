@@ -31,6 +31,26 @@ h3 {
     line-height: 120%;
 }
 
+h4 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.info h4 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.info h5 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #999999;
+    text-transform: uppercase;
+}
+
 h5 {
     font-size: 14px;
     font-weight: bold;
@@ -157,7 +177,8 @@ header.container {
     background-size: 772px;
 }
 
-.module-page #page-banner {
+.module-page #page-banner,
+.info #page-banner {
     padding: 0;
     margin: 0;
     background-color: #fff;

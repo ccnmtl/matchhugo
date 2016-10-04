@@ -7,7 +7,9 @@
     <h1 id="page-banner"><span class="sr-only">{{ .Site.Title }}</span></h1>
     <div id="gradient-teal">
     {{ if .IsPage }}
+    {{ if eq .Type "module-page" }}
     <div class="module-name visible-lg"><h1>{{ .Params.module }}</h1></div>
+    {{ end }}
     {{ end }}
     </div>
 </header>

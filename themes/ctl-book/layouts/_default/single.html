@@ -6,6 +6,7 @@
 {{ $currentNode }}
 
 <div class="clearfix"></div>
+{{ if eq .Type "module-page" }}
 <nav class="hidden-print">
   <ul class="pager pager-nav">
     {{ if .Params.previous }}
@@ -16,4 +17,5 @@
     {{ end }}
   </ul>
 </nav>
+{{ end }}
 {{ partial "footer.html" . }}
