@@ -34,8 +34,12 @@
 {{ if eq .Type "module-page" }}
 <script src="{{ .Site.BaseURL }}js/src/sidemenu.js" type="text/javascript" language="javascript"></script>
 <script src="{{ .Site.BaseURL }}js/src/quiz.js" type="text/javascript" language="javascript"></script>
+{{ partial "js.html" . }}
 {{ else }}
 {{ end }}
+{{ end }}
+{{ if .Site.GoogleAnalytics }}
+{{ template "_internal/google_analytics.html" . }}
 {{ end }}
 
 </html>
