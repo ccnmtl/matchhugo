@@ -1,4 +1,4 @@
-<!DOCTYPE html><!-- PASS -->
+<!DOCTYPE html><!-- MATCH -->
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -31,21 +31,20 @@
     {{ partial "favicon.html" . }}
 
 </head>
-<body {{ if .IsHome }}{{ else }}class="{{ .Type }}"{{ end }}>
+<body{{ if .IsPage }} class="{{ .Type }}"{{ end }}>
 
 
 {{ partial "banner.html" . }}
 
 <div class="row container docs-container clearfix">
-    {{ if .IsHome }}
-    <div class="col-lg-12 content">
-    {{ end }}
     {{ if .IsPage }}
     {{ if eq .Type "module-page" }}
     <div class="col-lg-10 content">
     {{ else }}
     <div class="col-lg-12 content">
     {{ end }}
+    {{ else }}
+    <div class="col-lg-12 content">
     {{ end }}
         <div id="maincontent" role="main" class="clearfix">
             <span class="sr-only" role="presentation">&nbsp;</span><!-- to fix some weirdness in VoiceOver -->
