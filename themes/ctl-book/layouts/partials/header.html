@@ -31,7 +31,7 @@
     {{ partial "favicon.html" . }}
 
 </head>
-<body{{ if .IsPage }} class="{{ .Type }}"{{ end }}>
+<body itemscope itemtype="http://schema.org/WebPage"{{ if .IsPage }} class="{{ .Type }}"{{ end }}>
 
 
 {{ partial "banner.html" . }}
