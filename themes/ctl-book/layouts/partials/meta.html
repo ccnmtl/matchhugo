@@ -1,3 +1,5 @@
+<link rel="canonical" href="{{ if .IsHome }}{{ .Site.BaseURL }}{{ else }}{{ .Permalink }}{{ end }}" />
+
 <!-- Standard Meta Data -->
 <meta name="description" content="{{ .Site.Params.description }}" />
 <meta name="keywords" content="{{ .Site.Params.keywords }}" />
@@ -15,3 +17,13 @@
 <meta property="og:image" content="{{ .Site.BaseURL }}img/ogg-image.png" />
 
 <!-- Twitter -->
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "url": "{{ .Site.BaseURL }}",
+    "name": "{{ .Site.Title }}",
+    "about": "{{ .Site.Params.description }}"
+}
+</script>
