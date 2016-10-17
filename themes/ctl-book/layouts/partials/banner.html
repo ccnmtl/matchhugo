@@ -4,11 +4,12 @@
         <a href="{{ .Site.BaseURL }}" class="navbar-brand" id="primary-logo"><img src="{{ .Site.BaseURL }}img/logo-primary.png" alt="Go to {{ .Site.Params.shortTitle }} home page" itemprop="primaryImageOfPage" /></a>
         <div id="secondary-logo"><img src="{{ .Site.BaseURL }}img/logo-secondary.png" alt="This project is part of the Uncharted Dental Education program" /></div>
     </div>
-    <h1 id="page-banner"><span class="sr-only">{{ .Site.Title }}</span></h1>
+    <h1 id="page-banner" class="hidden-print"><span class="sr-only">{{ .Site.Title }}</span></h1>
     <div id="gradient-teal">
     {{ if .IsPage }}
     {{ if eq .Type "module-page" }}
     <div class="module-name visible-lg"><h1>{{ .Params.module }}</h1></div>
+    <div class="module-name visible-print-block" role="presentation"><h1>{{ .Params.module }}:</h1></div>
     {{ end }}
     {{ end }}
     </div>

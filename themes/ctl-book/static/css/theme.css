@@ -692,3 +692,35 @@ header.container {
         width: 925px;
     }
 }
+
+@media print {
+    .print-alert {
+        font-weight: bold;
+        color: #999 !important;
+    }
+    #primary-logo
+    {
+        padding: 0 0 15px 0;
+        height: 60px !important;
+    }    
+    #secondary-logo
+    {
+        padding: 0 0 15px 0;
+        height: 60px !important;
+    }    
+    .module-name h1 {
+        padding-top: 40px !important;
+        padding-left: 15px !important;
+        height: auto;
+        background-color: transparent;
+    }
+    footer {
+        border-top: 1px solid #ccc;
+    }
+    .footer-logos {
+        margin-bottom: 0;
+    }
+    #headcontainer a[href]:after {
+        content: none !important;
+    }
+}

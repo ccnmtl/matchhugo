@@ -1,11 +1,16 @@
-<div class='{{ .Get "minsize" }}-width-warning alert alert-danger' role="presentation">
+<div class='{{ .Get "minsize" }}-width-warning alert alert-danger hidden-print' role="presentation">
   The interactive activity on this page is best viewed on larger screens. Please rotate your mobile device, or switch to a desktop computer.
 </div>
 
-<div class='iframe-embed {{ .Get "minsize" }} {{ .Get "name" }}'>
+<div class='iframe-embed hidden-print {{ .Get "minsize" }} {{ .Get "name" }}'>
 <p class="sr-only" role="alert">The following is an interactive activity that may not be accessible to assistive technologies.</p>
 	<iframe src='/lib/{{ .Get "url" }}'
 		frameborder='0'
 		height='800'
 	></iframe>
+</div>
+
+<div class="well visible-print-block">This page contains an interactive. If you have completed the activity and would like to print out the summary, click the print icon
+<img src="/img/icon-print-instructions.png" style="padding: 5px; border: 1px solid #ccc;" /> 
+from the activity's menu.
 </div>

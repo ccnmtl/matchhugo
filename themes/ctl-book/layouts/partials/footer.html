@@ -20,6 +20,9 @@
             <li itemscope itemtype="http://schema.org/EducationalOrganization"><a href="http://ctl.columbia.edu" target="_blank" itemprop="url"><img src="{{ .Site.BaseURL }}img/logo-ctl.png" alt="" itemprop="logo" /><span class="sr-only" itemprop="name">Center for Teaching and Learning at Columbia University</span></a></li>
         </ul>
     </div>
+    <div class="visible-print-block">
+    <p role="presentation">Printed from: {{ if .IsHome }}{{ .Site.BaseURL }}{{ else }}{{ .Permalink }}{{ end }}</p>
+    </div>
 </footer>
 
 </body>
