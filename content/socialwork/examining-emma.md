@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   socialwork:
     parent: "socialwork"
-    weight: 16
+    weight: 13
     identifier: "examining-emma"
     pre: 4
 depth: 4

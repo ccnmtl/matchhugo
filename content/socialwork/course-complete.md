@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   socialwork:
     parent: "socialwork"
-    weight: 24
+    weight: 21
     identifier: "course-complete"
     pre: 3
 depth: 3

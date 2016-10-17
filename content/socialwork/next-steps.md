@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   socialwork:
     parent: "socialwork"
-    weight: 17
+    weight: 14
     identifier: "next-steps"
     pre: 4
 depth: 4

@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   socialwork:
     parent: "socialwork"
-    weight: 21
+    weight: 18
     identifier: "dental-care"
     pre: 4
 depth: 4

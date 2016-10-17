@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   socialwork:
     parent: "socialwork"
-    weight: 20
+    weight: 17
     identifier: "treatment-options"
     pre: 4
 depth: 4

@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   socialwork:
     parent: "socialwork"
-    weight: 12
+    weight: 9
     identifier: "case-2-sanjay"
     pre: 3
 depth: 3

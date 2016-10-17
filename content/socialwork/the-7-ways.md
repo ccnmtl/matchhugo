@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   socialwork:
     parent: "socialwork"
-    weight: 8
+    weight: 5
     identifier: "the-7-ways"
     pre: 4
 depth: 4
