@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   socialwork:
     parent: "socialwork"
-    weight: 19
+    weight: 16
     identifier: "what-would-you-do"
     pre: 3
 depth: 3

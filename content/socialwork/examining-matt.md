@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   socialwork:
     parent: "socialwork"
-    weight: 10
+    weight: 7
     identifier: "examining-matt"
     pre: 4
 depth: 4

@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   socialwork:
     parent: "socialwork"
-    weight: 23
+    weight: 20
     identifier: "feedback"
     pre: 4
 depth: 4

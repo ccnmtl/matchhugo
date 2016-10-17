@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   socialwork:
     parent: "socialwork"
-    weight: 14
+    weight: 11
     identifier: "helping-sanjay"
     pre: 4
 depth: 4
