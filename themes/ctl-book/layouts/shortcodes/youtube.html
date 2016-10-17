@@ -1,4 +1,4 @@
-<div class="video-player">
+<div class="video-player hidden-print">
 <img src="/img/video-placeholder.jpg" />
 <!-- 
 	<iframe src='https://www.youtube.com/embed/{{ .Get "id" }}' 
@@ -7,6 +7,9 @@
 		width="560"
 		height="315"
 	></iframe>
+ <p class="visible-print-block" role="presentation">https://www.youtube.com/embed/{{ .Get "id" }}</p>
  -->
 </div>
 
+<div class="well visible-print-block print-alert">This segment of the page contains a video. The link to this video will be added soon.
+</div>
