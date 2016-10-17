@@ -69,6 +69,8 @@ jQuery(document).ready(function() {
     jQuery('.btn-submit-section').click(function(evt) {
         evt.preventDefault();
 
+        window.parent.jQuery('body').animate({scrollTop: 0}, 'slow');
+
         var form = jQuery(this).parents('form');
 
         // verify all form fields are filled out
