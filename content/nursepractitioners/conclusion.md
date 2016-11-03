@@ -28,4 +28,4 @@ previous: "../dr-jacobs-next-steps/"
 <li><b>Sheena Singh DDS </b>, Chief Pediatric Dental Resident, NYU College of Dentistry</li>
 </ul>
 
-{{< youtube id="NWNxuJ0MK3k" >}}</div>
+{{< youtube id="f1ENrDsoAUU" >}}</div>

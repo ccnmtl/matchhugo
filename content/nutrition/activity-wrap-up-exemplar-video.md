@@ -29,4 +29,4 @@ previous: "../activity1/"
 </ul>
 <p><span>This inter-professional interaction provides a detailed example of dietitians and pediatric dentists working in practice to benefit their patient's oral and overall health.</span></p>
 </div><div class="pageblock">
-{{< youtube id="NWNxuJ0MK3k" >}}</div>
+{{< youtube id="YOtMOEzZWlE" >}}</div>

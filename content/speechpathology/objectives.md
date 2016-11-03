@@ -25,4 +25,4 @@ previous: "../introduction/"
 <p>She received her M.S. degree in speech-language pathology from Hunter College following a B.A. in theatre and music from Ithaca College. She is licensed in New York State and holds the Certificate of Clinical Competence (CCC-SLP) from the American Speech Language Hearing Association (ASHA). She maintains memberships in ASHA and the American Cleft Palate-Craniofacial Association (ACPA).</p>
 <pwatch arinne="" as="" collaborating="" dental="" discusses="" experiences="" following="" her="" professionals.="" the="" video="" with="">
 
-{{< youtube id="NWNxuJ0MK3k" >}}</pwatch></div>
+{{< youtube id="rPYRW66FSK8" >}}</pwatch></div>

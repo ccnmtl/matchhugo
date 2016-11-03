@@ -25,4 +25,4 @@ next: "../social-workers/"
 </div>
 </div><div class="pageblock"><h3>Dr. Christina Ciano & Sarah Lu</h3><div class="maintext"><p>Watch the following video to learn from Dr. Christina Ciano’s experience with a hospital social worker and from social worker Sarah Lu about collaborating with dentists.</p></div>
 </div><div class="pageblock">
-{{< youtube id="NWNxuJ0MK3k" >}}</div>
+{{< youtube id="Rx_0iyHllHs" >}}</div>

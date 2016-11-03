@@ -20,4 +20,4 @@ previous: "../results2/"
  Making a Difference campaign, the ADA now is working to engage leaders in education and public health, as well as the private practice community in bringing CDHCs to dentally underserved communities nationwide.</p>
 <p>Watch this video to learn more about how CDHCs have a direct impact on the oral health care of the communities they serve.</p>
 </div><div class="pageblock">
-{{< youtube id="NWNxuJ0MK3k" >}}</div>
+{{< youtube id="xLMOPtNauQk" >}}</div>

@@ -51,4 +51,4 @@ comprehensive histories, physical examinations, well child examinations</li>
 <p>Dr. Marino stresses to her students the importance of building bridges between pediatric primary care providers to improve the quality outcomes in children and also to minimize the risk of missing opportunities to identify children at risk.</p>
 <p>Watch this video to find out more about pediatric nurse practitioners and their potential collaboration with pediatric dentists.</p>
 
-{{< youtube id="NWNxuJ0MK3k" >}}</div>
+{{< youtube id="jJzEPaBDK-U" >}}</div>
