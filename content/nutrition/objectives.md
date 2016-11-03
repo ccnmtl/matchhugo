@@ -18,6 +18,6 @@ previous: "../introduction/"
 </ol>
 </div><div class="pageblock"><h3>Video</h3><p>Watch the following video to learn from registered dietitian, June Levine, about the profession and points for collaboration with pediatric dentists.</p>
 </div><div class="pageblock">
-{{< youtube id="NWNxuJ0MK3k" >}}</div><div class="pageblock"><p> </p>
+{{< youtube id="VZXEQ62PPkg" >}}</div><div class="pageblock"><p> </p>
 <p>Get to know more about nutrition professionals…</p>
 </div>

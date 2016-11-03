@@ -23,4 +23,4 @@ previous: "../case2followup/"
 </div><div class="pageblock"><h3>Mary Beth Giacona, DDS</h3><p>Dr. Mary Beth Giacona is certified by the American Board of Pediatric Dentistry. She graduated from Columbia University's College of Dental Medicine and completed her specialty training in Pediatric Dentistry at Columbia Presbyterian Hospital. She is currently an Assistant Clinical Professor in the Department of Pediatric Dentistry at Columbia University and a member of the Craniofacial Team at both New York Presbyterian Hospital and Morristown Medical Center. Dr. Giacona has private pediatric dental practices in Glen Rock and Randolph, NJ.</p>
 <p>Watch the following video as Dr. Giacona discusses her experiences collaborating with Arinne Tress, a speech-language pathologists.</p>
 
-{{< youtube id="NWNxuJ0MK3k" >}}</div>
+{{< youtube id="TMrFm7Z22Eg" >}}</div>
