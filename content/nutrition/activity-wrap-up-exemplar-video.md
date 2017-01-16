@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   nutrition:
     parent: "nutrition"
-    weight: 9
+    weight: 8
     identifier: "activity-wrap-up-exemplar-video"
     pre: 3
 depth: 3
