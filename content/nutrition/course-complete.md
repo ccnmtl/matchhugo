@@ -5,7 +5,7 @@ type: "module-page"
 menu:
   nutrition:
     parent: "nutrition"
-    weight: 10
+    weight: 9
     identifier: "course-complete"
     pre: 3
 depth: 3
