@@ -16,11 +16,11 @@
     "url": "https://github.com/ccnmtl/matchhugo/issues"
   },
   "dependencies": {
-    "dentalvisitactivity-pack": "^0.1.5",
-    "speechassessment-pack": "^0.1.4",
-    "speechdiagnoses-pack": "^0.1.4",
-    "swallowassessment-pack": "^0.1.4",
-    "anticipatoryguidance-pack": "^0.1.4",
+    "dentalvisitactivity-pack": "^0.1.8",
+    "speechassessment-pack": "^0.1.6",
+    "speechdiagnoses-pack": "^0.1.6",
+    "swallowassessment-pack": "^0.1.6",
+    "anticipatoryguidance-pack": "^0.1.6",
     "webpack": "^1.13.1"
   },
   "devDependencies": {
