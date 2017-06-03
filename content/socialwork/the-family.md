@@ -12,7 +12,8 @@ depth: 4
 next: "../feedback/"
 previous: "../dental-care/"
 ---
-<form method="post" action="."><div class="pageblock"><h3>Kenyatta, Baby Sean, and Joyce Continued</h3><div class="maintext">
+<form method="post" action=".">
+<div class="pageblock answer-feedback-quiz"><h3>Kenyatta, Baby Sean, and Joyce Continued</h3><div class="maintext">
 <div class="right">{{< figure src="/img/assets/bus-stop-small.jpg" alt="" class="" name="" usemap="">}}</div>
 <p>When you suggest that Kenyatta schedule her next visit, Joyce asks if there is a nearby bus line, if you are open on Saturday, and whether you will accept her new Medicaid insurance card. (You are aware that Medicaid provides comprehensive dental benefits to children to age 21.)</p>
 </div>
