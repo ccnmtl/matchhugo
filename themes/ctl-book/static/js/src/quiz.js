@@ -108,7 +108,7 @@ jQuery(document).ready(function() {
         var submitted = jQuery(btn).attr('disabled') === 'disabled';
 
         if (!submitted) {
-            alert('Please complete all form fields before continuing.');
+            alert('Please complete and submit the form before continuing.');
             evt.preventDefault();
             return false;
         }
