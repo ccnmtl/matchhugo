@@ -19,7 +19,7 @@ jQuery(document).ready(function() {
     */
 
     jQuery(window).bind('hashchange', function() {
-        var hash = '#' + window.location.hash.replace(/^#/,'');
+        var hash = '#' + window.location.hash.replace(/^#/, '');
         if (hash != '#') {
             jQuery(hash).attr('tabindex', -1).on('blur focusout', function() {
                 jQuery(this).removeAttr('tabindex');
