@@ -15,7 +15,7 @@ jQuery(document).ready(function() {
 
     jQuery('#toggle-sidenav a').click(function(evt) {
         jQuery('#sidenav-icon').toggleClass('open');
-        jQuery('#section-list').animate({height: 'toggle'},200);
+        jQuery('#section-list').animate({height: 'toggle'}, 200);
         if ((jQuery('#sidenav-icon').attr('class')) == 'open') {
             jQuery('#toggle-sidenav a').attr('aria-expanded', 'true');
             jQuery('#exp-menu-header').html('Sections menu for module');
@@ -30,7 +30,7 @@ jQuery(document).ready(function() {
         if ((jQuery('#module-name-toggle').is(':visible')) &&
             (jQuery('#section-list').is(':visible'))) {
             jQuery('#sidenav-icon').toggleClass('open');
-            jQuery('#section-list').animate({height: 'toggle'},200);
+            jQuery('#section-list').animate({height: 'toggle'}, 200);
             jQuery('#toggle-sidenav a').attr('aria-expanded', 'false');
         }
     });
