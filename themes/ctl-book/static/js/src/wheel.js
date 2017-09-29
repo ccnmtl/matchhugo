@@ -1,3 +1,7 @@
+/* exported pediatricnutrition00, pediatricnutrition01, pediatricnutrition02 */
+/* exported pediatricnutrition03, pediatricnutrition04, pediatricnutrition05 */
+/* exported pediatricnutrition06 */
+
 var base = '../../img/wheel/pediatricnutrition';
 var Image0 = new Image(384,667);
 Image0.src = base + '00.jpg';
