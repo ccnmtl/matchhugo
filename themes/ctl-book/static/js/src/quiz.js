@@ -1,4 +1,5 @@
 /* global alert: true */
+/* exported submitStateGameshow */
 
 function isFormComplete(form) {
     var valid = true;
@@ -57,8 +58,8 @@ jQuery(document).ready(function() {
 
     // add a print button to every page with a submit button
     jQuery('.btn-submit-section').after(
-            '<button class="btn btn-default btn-print flash ' +
-            'hidden">Print</button>');
+        '<button class="btn btn-default btn-print flash ' +
+        'hidden">Print</button>');
 
     jQuery('.btn-print').click(function(evt) {
         evt.preventDefault();

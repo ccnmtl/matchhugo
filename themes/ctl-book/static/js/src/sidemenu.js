@@ -6,7 +6,7 @@ jQuery(document).ready(function() {
     var SidemenuSize = function() {
         if (contentHeight < sidemenuHeight) {
             jQuery('.docs-container .content').css(
-            {'min-height': sidemenuHeight + 20 + 'px'}
+                {'min-height': sidemenuHeight + 20 + 'px'}
             );
         }
     };
