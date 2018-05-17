@@ -4,7 +4,7 @@
 
 <div class='iframe-embed hidden-print {{ .Get "minsize" }} {{ .Get "name" }}'>
 <p class="sr-only" role="alert">The following is an interactive activity that may not be accessible to assistive technologies.</p>
-	<iframe src='/lib/{{ .Get "url" }}'
+	<iframe src='/lib/{{ .Get "url" }}/index.html?parent=match'
 		frameborder='0'
 		height='800'
 	></iframe>
