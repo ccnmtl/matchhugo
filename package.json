@@ -22,7 +22,7 @@
     "speechdiagnoses-pack": "^0.1.8",
     "swallowassessment-pack": "^0.1.8",
     "webpack": "^4.8.3",
-    "webpack-cli": "~3.2.0"
+    "webpack-cli": "~3.3.0"
   },
   "devDependencies": {
     "eslint": "~5.15.0",
