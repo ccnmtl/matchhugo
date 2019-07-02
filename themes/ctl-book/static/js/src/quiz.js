@@ -1,4 +1,3 @@
-/* global alert: true */
 /* exported submitStateGameshow */
 
 function isFormComplete(form) {
