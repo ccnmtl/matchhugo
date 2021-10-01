@@ -16,7 +16,7 @@
     "url": "https://github.com/ccnmtl/matchhugo/issues"
   },
   "dependencies": {
-    "anticipatoryguidance-pack": "^0.1.8",
+    "anticipatoryguidance-pack": "^0.2.0",
     "dentalvisitactivity-pack": "^0.1.10",
     "speechassessment-pack": "^0.1.8",
     "speechdiagnoses-pack": "^0.1.8",
