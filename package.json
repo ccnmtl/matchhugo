@@ -18,7 +18,7 @@
   "dependencies": {
     "anticipatoryguidance-pack": "^0.1.8",
     "dentalvisitactivity-pack": "^0.1.10",
-    "speechassessment-pack": "^0.1.8",
+    "speechassessment-pack": "^0.2.0",
     "speechdiagnoses-pack": "^0.1.8",
     "swallowassessment-pack": "^0.1.8",
     "webpack": "^4.46.0",
