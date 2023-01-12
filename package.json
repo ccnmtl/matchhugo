@@ -27,6 +27,6 @@
   "devDependencies": {
     "acorn": "8.8.0",
     "eslint": "~8.31.0",
-    "eslint-plugin-security": "^1.5.0"
+    "eslint-plugin-security": "^1.6.0"
   }
 }
