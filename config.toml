@@ -1,5 +1,5 @@
 baseURL = "https://match.ctl.columbia.edu/"
-googleAnalytics = "UA-51144540-13"
+googleAnalytics = "G-KR8DGCG7RY"
 metaDataFormat = "yaml"
 languageCode = "en-us"
 theme = "ctl-book"
