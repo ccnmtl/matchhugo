@@ -43,6 +43,7 @@ function markCorrect(form) {
     });
 }
 
+// eslint-disable-next-line no-unused-vars
 function submitStateGameshow(form) {
     jQuery(form).find('.casesanswerdisplay').removeClass('hidden');
     markCorrect(form);
