@@ -28,7 +28,7 @@
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.11.0",
     "acorn": "8.14.0",
-    "eslint": "~9.14.0",
+    "eslint": "~9.15.0",
     "eslint-plugin-security": "^3.0.0",
     "globals": "^15.12.0"
   }
