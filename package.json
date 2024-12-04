@@ -21,7 +21,7 @@
     "speechassessment-pack": "^0.2.0",
     "speechdiagnoses-pack": "^0.2.0",
     "swallowassessment-pack": "^0.2.0",
-    "webpack": "^5.96.0",
+    "webpack": "^5.97.0",
     "webpack-cli": "~5.1.0"
   },
   "devDependencies": {
