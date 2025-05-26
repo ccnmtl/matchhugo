@@ -28,6 +28,6 @@
     "acorn": "8.14.0",
     "eslint": "~9.27.0",
     "eslint-plugin-security": "^3.0.0",
-    "globals": "^16.1.0"
+    "globals": "^16.2.0"
   }
 }
