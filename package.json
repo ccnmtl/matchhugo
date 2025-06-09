@@ -25,7 +25,7 @@
     "webpack-cli": "~6.0.0"
   },
   "devDependencies": {
-    "acorn": "8.14.0",
+    "acorn": "8.15.0",
     "eslint": "~9.28.0",
     "eslint-plugin-security": "^3.0.0",
     "globals": "^16.2.0"
