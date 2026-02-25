@@ -20,7 +20,6 @@ jQuery(document).ready(function() {
 
     jQuery(window).bind('hashchange', function() {
         var hash = '#' + window.location.hash.replace(/^#/, '');
-        // eslint-disable-next-line security/detect-possible-timing-attacks
         if (hash !== '#') {
             jQuery(hash).attr('tabindex', -1).on('blur focusout', function() {
                 jQuery(this).removeAttr('tabindex');
