@@ -27,6 +27,6 @@
   "devDependencies": {
     "acorn": "8.16.0",
     "eslint": "~9.39.0",
-    "globals": "^17.3.0"
+    "globals": "^17.4.0"
   }
 }
